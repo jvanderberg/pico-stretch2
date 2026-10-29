@@ -37652,6 +37652,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 209.55 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0c19d9fb-cf34-4641-9864-e5e2242e779b")
 		)
@@ -40695,7 +40706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2350 Dev Board:"
+		(property "Footprint" ""
 			(at 116.84 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -41999,6 +42010,17 @@
 			)
 		)
 		(property "LCSC Part Name" "100nF ±10% 16V"
+			(at 214.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 214.63 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -43866,7 +43888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2350 Dev Board:"
+		(property "Footprint" ""
 			(at 82.55 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -46313,7 +46335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2350 Dev Board:"
+		(property "Footprint" ""
 			(at 242.57 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -47133,7 +47155,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c14808b0-d17a-43c2-9e1d-8b148ce9e765")
 		(property "Reference" "U6"
@@ -47146,7 +47168,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP-PSRAM32"
+		(property "Value" "APS6404L-3SQR"
 			(at 54.61 298.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47167,7 +47189,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp-psram32_datasheet_en.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5333729.html"
 			(at 67.31 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -47178,7 +47200,18 @@
 				)
 			)
 		)
-		(property "Description" "32 Mbit serial pseudo SRAM device organized as 4Mx8 bits, 1.8 VCC, SOIC8 (SOP8)"
+		(property "Description" "64 Mbit QSPI PSRAM, 2.7-3.6 V, SOP-8 150 mil (AP Memory APS6404L-3SQR-SN). Optional, not fitted."
+			(at 54.61 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5333729"
 			(at 54.61 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -49863,7 +49896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2350 Dev Board:"
+		(property "Footprint" ""
 			(at 195.58 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -50020,6 +50053,17 @@
 			)
 		)
 		(property "LCSC Part Name" "100nF ±10% 16V"
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)

@@ -102,6 +102,28 @@
 			)
 		)
 	)
+	(fp_rect
+		(start -0.95 -2.56)
+		(end 79.69 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6d3d5ffa-24f2-5511-befb-5c7d14401cb1")
+	)
+	(fp_rect
+		(start -0.95 16.82)
+		(end 79.69 20.34)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bd4537b9-9579-54a0-8d47-cb723fe2c34d")
+	)
 	(pad "1" thru_hole oval
 		(at 0 17.78 180)
 		(size 1.7 3.3)

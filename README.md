@@ -44,8 +44,8 @@ Features:
 1   GPIO0           64  VBUS
 2   GPIO1           63  VSYS
 3   GND             62  GND
-4   GPIO2           61  3v3
-5   GPIO3           60  3v3_EN
+4   GPIO2           61  3v3_EN
+5   GPIO3           60  3v3
 6   GPIO4           59  ADC_VREF
 7   GPIO5           58  GPIO28
 8   GND             57  GND
@@ -75,6 +75,21 @@ Features:
 32  GPIO36          33  GPIO37
 ```
 
+## Optional parts and pin notes
+
+- **PSRAM (U6)** is not fitted by default. Solder an APS6404L-3SQR (3.3 V, SOP-8) and close JP1 to use it.
+  JP1 connects its chip select to GPIO0, so with the PSRAM fitted GPIO0 is no longer free for UART0 TX.
+- **Radio (U5, Raspberry Pi RM2)** is not fitted by default. GPIO24 (data/IRQ) and GPIO29 (clock) are wired
+  straight to its pads; GPIO25 (CS) and GPIO23 (WL_ON) go through JP2 and JP3. With the radio fitted and
+  the jumpers closed, all four belong to the radio.
+- The RM2 antenna hangs past the end of the board. If you solder this board onto a carrier that extends
+  under that end, keep copper off the carrier under and around the antenna.
+- Wi-Fi transmit is bursty. The 3.3 V supply is a linear regulator, so avoid sustained full-rate transmit
+  and keep extra load on the 3V3 pin modest. Keep VSYS above about 3.5 V.
+- The flash and PSRAM share a QSPI bus with three loads and no series resistors. The Pico 2 runs its flash
+  at `PICO_FLASH_SPI_CLKDIV 2`. If you see flash or PSRAM errors at higher system clocks, use a larger
+  divider (4) and test before going back down.
+
 ## Production files for JLCPCB
 
 Production files live in the `production/` directory:
@@ -82,6 +97,17 @@ Production files live in the `production/` directory:
 - `pico-stretch2.zip` — zipped Gerber files
 - `bom.csv` — bill of materials
 - `positions.csv` — component placement file
+
+When ordering:
+
+- Choose epoxy-filled and capped vias: the board has vias in pads.
+- Select the castellated holes option.
+- Use the JLC04161H-7628 stackup (set in the board file).
+- U6 (PSRAM) is marked DNP and left out of the BOM and placement files; clear DNP if you want JLC to fit it.
+- L1 (AOTA-B201610S3R3-101-T, C42411119) is often out of stock at JLC: pre-order it into your JLC parts
+  library or consign it. Do not substitute another inductor; the RP2350 regulator needs this
+  polarity-marked part.
+- Check pin 1 of U1, U3, U4 and the diodes in JLC's placement preview.
 
 ## Regenerating images
 
