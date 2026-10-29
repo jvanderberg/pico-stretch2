@@ -714,9 +714,9 @@
 	)
 	(pad "29" thru_hole oval
 		(at 71.12 17.78 180)
-		(size 1.7 3.3)
+		(size 1.7 3.15)
 		(drill 1
-			(offset 0 -0.8)
+			(offset 0 -0.875)
 		)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
@@ -735,9 +735,9 @@
 	)
 	(pad "30" thru_hole oval
 		(at 73.66 17.78 180)
-		(size 1.7 3.3)
+		(size 1.7 3.15)
 		(drill 1
-			(offset 0 -0.8)
+			(offset 0 -0.875)
 		)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
@@ -756,9 +756,9 @@
 	)
 	(pad "31" thru_hole oval
 		(at 76.2 17.78 180)
-		(size 1.7 3.3)
+		(size 1.7 3.15)
 		(drill 1
-			(offset 0 -0.8)
+			(offset 0 -0.875)
 		)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
@@ -777,9 +777,9 @@
 	)
 	(pad "32" thru_hole oval
 		(at 78.74 17.78 180)
-		(size 1.7 3.3)
+		(size 1.7 3.15)
 		(drill 1
-			(offset 0 -0.8)
+			(offset 0 -0.875)
 		)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
@@ -807,9 +807,9 @@
 	)
 	(pad "33" thru_hole oval
 		(at 78.74 0)
-		(size 1.7 3.3)
+		(size 1.7 3.15)
 		(drill 1
-			(offset 0 -0.8)
+			(offset 0 -0.875)
 		)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
@@ -828,9 +828,9 @@
 	)
 	(pad "34" thru_hole oval
 		(at 76.2 0)
-		(size 1.7 3.3)
+		(size 1.7 3.15)
 		(drill 1
-			(offset 0 -0.8)
+			(offset 0 -0.875)
 		)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
@@ -849,9 +849,9 @@
 	)
 	(pad "35" thru_hole oval
 		(at 73.66 0)
-		(size 1.7 3.3)
+		(size 1.7 3.15)
 		(drill 1
-			(offset 0 -0.8)
+			(offset 0 -0.875)
 		)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
@@ -870,9 +870,9 @@
 	)
 	(pad "36" thru_hole oval
 		(at 71.12 0)
-		(size 1.7 3.3)
+		(size 1.7 3.15)
 		(drill 1
-			(offset 0 -0.8)
+			(offset 0 -0.875)
 		)
 		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")

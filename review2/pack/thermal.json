@@ -1,0 +1,1001 @@
+{
+ "ambient_C": 35,
+ "h_W_m2K": {
+  "low": 5,
+  "nominal": 7,
+  "high": 10
+ },
+ "h_bottom_ratio": 1.0,
+ "pitch_mm": 0.3,
+ "k_fr4": 0.3,
+ "via_plating_um": 20.0,
+ "area_mm2": 1724.94,
+ "corners": [
+  "typical",
+  "radio_tx"
+ ],
+ "stackup": {
+  "layers": [
+   {
+    "name": "F.Cu",
+    "t_mm": 0.035,
+    "z_mm": 0.0175
+   },
+   {
+    "name": "In1.Cu",
+    "t_mm": 0.0152,
+    "z_mm": 0.253
+   },
+   {
+    "name": "In2.Cu",
+    "t_mm": 0.0152,
+    "z_mm": 1.3332
+   },
+   {
+    "name": "B.Cu",
+    "t_mm": 0.035,
+    "z_mm": 1.5687
+   }
+  ],
+  "gaps_mm": [
+   0.2104,
+   1.065,
+   0.2104
+  ]
+ },
+ "heat": {
+  "typical": {
+   "title": "USB 5 V, RP2350 running, radio idle or not fitted, 3V3 pin unloaded: about 80 mA on 3V3",
+   "total_W": 0.23700000000000002,
+   "placed_W": 0.23700000000000004,
+   "groups": {
+    "conversion": 0.23700000000000002
+   },
+   "by_ref": {
+    "U3": 0.11600000000000002,
+    "D1": 0.017,
+    "U5": 0.004,
+    "U1": 0.1,
+    "U4": 0.0,
+    "U6": 0.0,
+    "L1": 0.0,
+    "D2": 0.0,
+    "D3": 0.0,
+    "D4": 0.0,
+    "J4": 0.0,
+    "USB1": 0.0,
+    "R7": 0.0
+   },
+   "rows": [
+    {
+     "ref": "U3",
+     "name": "U3",
+     "what": "ME6217 LDO",
+     "kind": "linear",
+     "P_W": 0.11600000000000002,
+     "basis": "VSYS = 5.0 V - D1 VF (0.21 V @0.1 A, 0.31 V @1 A, DFLS130L datasheet)",
+     "assumed": false,
+     "why": "",
+     "net": null,
+     "group": "conversion",
+     "inputs": "(4.75 - 3.30) V x 0.080 A"
+    },
+    {
+     "ref": "D1",
+     "name": "D1",
+     "what": "VBUS OR-ing Schottky",
+     "kind": "fixed",
+     "P_W": 0.017,
+     "basis": "VF x I, DFLS130L VF 0.21 V @ 0.1 A, ~0.25 V @ 0.4 A",
+     "assumed": false,
+     "why": "",
+     "net": null,
+     "group": "conversion",
+     "inputs": "given 0.017 W"
+    },
+    {
+     "ref": "U5",
+     "name": "U5",
+     "what": "RM2 radio module (hand fitted)",
+     "kind": "fixed",
+     "P_W": 0.004,
+     "basis": "3.3 V x 271 mA Tx MCS7 @16 dBm minus ~40 mW radiated (RM2 datasheet 1.2); PM1 1.19 mA idle",
+     "assumed": false,
+     "why": "",
+     "net": null,
+     "group": "conversion",
+     "inputs": "given 0.004 W"
+    },
+    {
+     "ref": "U1",
+     "name": "U1",
+     "what": "RP2350B incl. core regulator",
+     "kind": "fixed",
+     "P_W": 0.1,
+     "basis": "estimate: ~30 mA core at 1.1 V via VREG plus IO; not measured",
+     "assumed": false,
+     "why": "",
+     "net": null,
+     "group": "conversion",
+     "inputs": "given 0.1 W"
+    },
+    {
+     "ref": "U4",
+     "name": "U4",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "W25Q128 read current ~15 mA (0.05 W) at most",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "U6",
+     "name": "U6",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "PSRAM DNP; when fitted a few mA average",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "L1",
+     "name": "L1",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "core current ~30-70 mA through a 3.3 uH inductor, I^2 DCR in the mW range",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "D2",
+     "name": "D2",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "ESD clamp, off in normal use",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "D3",
+     "name": "D3",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "ESD clamp, off in normal use",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "D4",
+     "name": "D4",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "VBUS TVS, off below 6.2 V (VBR min)",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "J4",
+     "name": "J4",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "castellated pads, no load current through the board in these corners",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "USB1",
+     "name": "USB1",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "contact resistance x 0.4 A^2, a few mW",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "R7",
+     "name": "R7",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "1 ohm ADC_AVDD filter, microamps",
+     "net": null,
+     "group": "negligible"
+    }
+   ]
+  },
+  "radio_tx": {
+   "title": "USB 5 V, RM2 transmitting continuously (271 mA, RM2 datasheet 1.2) plus MCU and flash: 0.40 A on 3V3 (README limits this to bursts)",
+   "total_W": 1.65,
+   "placed_W": 1.65,
+   "groups": {
+    "conversion": 1.65
+   },
+   "by_ref": {
+    "U3": 0.5800000000000001,
+    "D1": 0.1,
+    "U5": 0.85,
+    "U1": 0.12,
+    "U4": 0.0,
+    "U6": 0.0,
+    "L1": 0.0,
+    "D2": 0.0,
+    "D3": 0.0,
+    "D4": 0.0,
+    "J4": 0.0,
+    "USB1": 0.0,
+    "R7": 0.0
+   },
+   "rows": [
+    {
+     "ref": "U3",
+     "name": "U3",
+     "what": "ME6217 LDO",
+     "kind": "linear",
+     "P_W": 0.5800000000000001,
+     "basis": "VSYS = 5.0 V - D1 VF (0.21 V @0.1 A, 0.31 V @1 A, DFLS130L datasheet)",
+     "assumed": false,
+     "why": "",
+     "net": null,
+     "group": "conversion",
+     "inputs": "(4.75 - 3.30) V x 0.400 A"
+    },
+    {
+     "ref": "D1",
+     "name": "D1",
+     "what": "VBUS OR-ing Schottky",
+     "kind": "fixed",
+     "P_W": 0.1,
+     "basis": "VF x I, DFLS130L VF 0.21 V @ 0.1 A, ~0.25 V @ 0.4 A",
+     "assumed": false,
+     "why": "",
+     "net": null,
+     "group": "conversion",
+     "inputs": "given 0.1 W"
+    },
+    {
+     "ref": "U5",
+     "name": "U5",
+     "what": "RM2 radio module (hand fitted)",
+     "kind": "fixed",
+     "P_W": 0.85,
+     "basis": "3.3 V x 271 mA Tx MCS7 @16 dBm minus ~40 mW radiated (RM2 datasheet 1.2); PM1 1.19 mA idle",
+     "assumed": false,
+     "why": "",
+     "net": null,
+     "group": "conversion",
+     "inputs": "given 0.85 W"
+    },
+    {
+     "ref": "U1",
+     "name": "U1",
+     "what": "RP2350B incl. core regulator",
+     "kind": "fixed",
+     "P_W": 0.12,
+     "basis": "estimate: ~30 mA core at 1.1 V via VREG plus IO; not measured",
+     "assumed": false,
+     "why": "",
+     "net": null,
+     "group": "conversion",
+     "inputs": "given 0.12 W"
+    },
+    {
+     "ref": "U4",
+     "name": "U4",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "W25Q128 read current ~15 mA (0.05 W) at most",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "U6",
+     "name": "U6",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "PSRAM DNP; when fitted a few mA average",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "L1",
+     "name": "L1",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "core current ~30-70 mA through a 3.3 uH inductor, I^2 DCR in the mW range",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "D2",
+     "name": "D2",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "ESD clamp, off in normal use",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "D3",
+     "name": "D3",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "ESD clamp, off in normal use",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "D4",
+     "name": "D4",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "VBUS TVS, off below 6.2 V (VBR min)",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "J4",
+     "name": "J4",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "castellated pads, no load current through the board in these corners",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "USB1",
+     "name": "USB1",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "contact resistance x 0.4 A^2, a few mW",
+     "net": null,
+     "group": "negligible"
+    },
+    {
+     "ref": "R7",
+     "name": "R7",
+     "what": "",
+     "kind": "negligible",
+     "P_W": 0.0,
+     "basis": "",
+     "assumed": false,
+     "why": "1 ohm ADC_AVDD filter, microamps",
+     "net": null,
+     "group": "negligible"
+    }
+   ]
+  }
+ },
+ "board": [
+  {
+   "corner": "radio_tx",
+   "h": "high",
+   "h_W_m2K": 10,
+   "P_W": 1.65,
+   "placed_W": 1.65,
+   "avg_analytic": 47.82775053045324,
+   "avg_solver": 47.79283965748556,
+   "peak": {
+    "rise": 79.5364354467749,
+    "layer": "F.Cu",
+    "x": 121.0,
+    "y": 104.3,
+    "near": "U3"
+   }
+  },
+  {
+   "corner": "radio_tx",
+   "h": "low",
+   "h_W_m2K": 5,
+   "P_W": 1.65,
+   "placed_W": 1.65,
+   "avg_analytic": 95.65550106090647,
+   "avg_solver": 95.58567910267361,
+   "peak": {
+    "rise": 126.93451478635527,
+    "layer": "F.Cu",
+    "x": 121.0,
+    "y": 104.3,
+    "near": "U3"
+   }
+  },
+  {
+   "corner": "radio_tx",
+   "h": "nominal",
+   "h_W_m2K": 7,
+   "P_W": 1.65,
+   "placed_W": 1.65,
+   "avg_analytic": 68.32535790064748,
+   "avg_solver": 68.27548515993688,
+   "peak": {
+    "rise": 99.87402945226688,
+    "layer": "F.Cu",
+    "x": 121.0,
+    "y": 104.3,
+    "near": "U3"
+   }
+  },
+  {
+   "corner": "typical",
+   "h": "high",
+   "h_W_m2K": 10,
+   "P_W": 0.23700000000000002,
+   "placed_W": 0.23700000000000004,
+   "avg_analytic": 6.869804167101466,
+   "avg_solver": 6.864789696245758,
+   "peak": {
+    "rise": 16.616174986581125,
+    "layer": "F.Cu",
+    "x": 121.0,
+    "y": 104.3,
+    "near": "U3"
+   }
+  },
+  {
+   "corner": "typical",
+   "h": "low",
+   "h_W_m2K": 5,
+   "P_W": 0.23700000000000002,
+   "placed_W": 0.23700000000000004,
+   "avg_analytic": 13.739608334202932,
+   "avg_solver": 13.729579361997676,
+   "peak": {
+    "rise": 25.070941489855844,
+    "layer": "F.Cu",
+    "x": 121.0,
+    "y": 104.3,
+    "near": "U3"
+   }
+  },
+  {
+   "corner": "typical",
+   "h": "nominal",
+   "h_W_m2K": 7,
+   "P_W": 0.23700000000000002,
+   "placed_W": 0.23700000000000004,
+   "avg_analytic": 9.814005953002095,
+   "avg_solver": 9.806842413865116,
+   "peak": {
+    "rise": 20.38891753751537,
+    "layer": "F.Cu",
+    "x": 121.0,
+    "y": 104.3,
+    "near": "U3"
+   }
+  }
+ ],
+ "board_T_max_C": 105.0,
+ "tau_s": {
+  "low": 324.5437929203334,
+  "nominal": 231.81699494309527,
+  "high": 162.2718964601667
+ },
+ "conduction_vs_conversion_W": {
+  "typical": [
+   0,
+   0.23700000000000002
+  ],
+  "radio_tx": [
+   0,
+   1.65
+  ]
+ },
+ "findings": [
+  {
+   "severity": "high",
+   "text": "corner radio_tx at h nominal: board average 103 C, peak 135 C (F.Cu near U3; board limit 105 C). Over their limit: no part"
+  },
+  {
+   "severity": "medium",
+   "text": "U3 at radio_tx: 31 K above the board average (0.58 W): heat trapped near the part - see its pours and pads"
+  },
+  {
+   "severity": "medium",
+   "text": "U5 at radio_tx: 26 K above the board average (0.85 W): heat trapped near the part - see its pours and pads"
+  },
+  {
+   "severity": "medium",
+   "text": "pour VSYS on F.Cu under U3 (6.7 mm^2): one via only; 9 K between this pour and the layer below (solved, radio_tx, h nominal)"
+  },
+  {
+   "severity": "medium",
+   "text": "pour 3V3 on F.Cu under U5 (21.6 mm^2): one via only; 4 K between this pour and the layer below (solved, radio_tx, h nominal)"
+  }
+ ],
+ "parts": [
+  {
+   "ref": "D1",
+   "value": "DFLS130L-7",
+   "corner": "typical",
+   "P_W": 0.017,
+   "T": {
+    "low": {
+     "board_rise": 20.586255028915442,
+     "board_rise_max": 20.594781311051353,
+     "T_board": 55.586255028915446,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "nominal": {
+     "board_rise": 15.874008354255832,
+     "board_rise_max": 15.882655240371705,
+     "T_board": 50.874008354255835,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "high": {
+     "board_rise": 12.072683914719997,
+     "board_rise_max": 12.081456703653487,
+     "T_board": 47.072683914719995,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    }
+   }
+  },
+  {
+   "ref": "D1",
+   "value": "DFLS130L-7",
+   "corner": "radio_tx",
+   "P_W": 0.1,
+   "T": {
+    "low": {
+     "board_rise": 105.5920682811907,
+     "board_rise_max": 105.64200881352016,
+     "T_board": 140.5920682811907,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "nominal": {
+     "board_rise": 78.5039414598521,
+     "board_rise_max": 78.55407843348054,
+     "T_board": 113.5039414598521,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "high": {
+     "board_rise": 58.12905068449126,
+     "board_rise_max": 58.17946378289135,
+     "T_board": 93.12905068449126,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    }
+   }
+  },
+  {
+   "ref": "U1",
+   "value": "RP2350B_C42415655",
+   "corner": "typical",
+   "P_W": 0.1,
+   "T": {
+    "low": {
+     "board_rise": 18.72397706958931,
+     "board_rise_max": 18.77488956000376,
+     "T_board": 53.72397706958931,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "nominal": {
+     "board_rise": 14.547857480778138,
+     "board_rise_max": 14.59821605722553,
+     "T_board": 49.547857480778134,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "high": {
+     "board_rise": 11.326490698495618,
+     "board_rise_max": 11.376228313926623,
+     "T_board": 46.32649069849562,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    }
+   }
+  },
+  {
+   "ref": "U1",
+   "value": "RP2350B_C42415655",
+   "corner": "radio_tx",
+   "P_W": 0.12,
+   "T": {
+    "low": {
+     "board_rise": 86.71953746546198,
+     "board_rise_max": 86.78012611435406,
+     "T_board": 121.71953746546198,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "nominal": {
+     "board_rise": 60.238830922697524,
+     "board_rise_max": 60.299446685218555,
+     "T_board": 95.23883092269753,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "high": {
+     "board_rise": 40.78828960794185,
+     "board_rise_max": 40.84880911447941,
+     "T_board": 75.78828960794185,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    }
+   }
+  },
+  {
+   "ref": "U3",
+   "value": "ME6217C33M5G",
+   "corner": "typical",
+   "P_W": 0.11600000000000002,
+   "T": {
+    "low": {
+     "board_rise": 24.986280971647865,
+     "board_rise_max": 25.070941489855844,
+     "T_board": 59.986280971647865,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "nominal": {
+     "board_rise": 20.304387371297395,
+     "board_rise_max": 20.38891753751537,
+     "T_board": 55.304387371297395,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "high": {
+     "board_rise": 16.531794064050864,
+     "board_rise_max": 16.616174986581125,
+     "T_board": 51.531794064050864,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    }
+   }
+  },
+  {
+   "ref": "U3",
+   "value": "ME6217C33M5G",
+   "corner": "radio_tx",
+   "P_W": 0.5800000000000001,
+   "T": {
+    "low": {
+     "board_rise": 126.51134896016525,
+     "board_rise_max": 126.93451478635527,
+     "T_board": 161.51134896016526,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "nominal": {
+     "board_rise": 99.45114238674209,
+     "board_rise_max": 99.87402945226688,
+     "T_board": 134.4511423867421,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "high": {
+     "board_rise": 79.11395603204718,
+     "board_rise_max": 79.5364354467749,
+     "T_board": 114.11395603204718,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    }
+   }
+  },
+  {
+   "ref": "U5",
+   "value": "RPI Radio Module 2",
+   "corner": "typical",
+   "P_W": 0.004,
+   "T": {
+    "low": {
+     "board_rise": 8.045280755047274,
+     "board_rise_max": 8.105703992687149,
+     "T_board": 43.04528075504727,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "nominal": {
+     "board_rise": 4.898621499460799,
+     "board_rise_max": 4.946664715845364,
+     "T_board": 39.8986214994608,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "high": {
+     "board_rise": 2.799174476656783,
+     "board_rise_max": 2.8340564535379613,
+     "T_board": 37.79917447665678,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    }
+   }
+  },
+  {
+   "ref": "U5",
+   "value": "RPI Radio Module 2",
+   "corner": "radio_tx",
+   "P_W": 0.85,
+   "T": {
+    "low": {
+     "board_rise": 123.42077542342724,
+     "board_rise_max": 123.92826677021498,
+     "T_board": 158.42077542342724,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "nominal": {
+     "board_rise": 94.67288015904106,
+     "board_rise_max": 95.17259910103061,
+     "T_board": 129.67288015904106,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    },
+    "high": {
+     "board_rise": 72.46956496308647,
+     "board_rise_max": 72.9592700099318,
+     "T_board": 107.46956496308647,
+     "Tj": null,
+     "tj_how": "no psi_JB / theta_JC given: board temperature only"
+    }
+   }
+  }
+ ],
+ "exposed_pads": [
+  {
+   "ref": "U1",
+   "value": "RP2350B_C42415655",
+   "pad": "81",
+   "net": "GND",
+   "area_mm2": 11.56,
+   "dims_mm": [
+    3.4,
+    3.4
+   ],
+   "vias_in_pad": 9,
+   "vias_beside": 0,
+   "recommended": 9,
+   "rec_basis": "rule of thumb: 0.3 mm vias at 1.0 mm pitch, 0.3 mm from the pad edge",
+   "G_near_W_K": 0.27734059986467857,
+   "G_far_W_K": 0.042105280600910136,
+   "G_beside_W_K": 0,
+   "near_layer": "In1.Cu",
+   "R_K_W": 3.605674756915955,
+   "net_on_other_layers": [
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+   ],
+   "P_max_W": 0.12,
+   "dT_vias_K": 0.4326809708299146,
+   "step_K": 0.8671343594301959,
+   "step_corner": "radio_tx",
+   "step_to": "In1.Cu",
+   "severity": "ok"
+  }
+ ],
+ "pours": [
+  {
+   "ref": "U3",
+   "net": "3V3",
+   "layer": "F.Cu",
+   "corner": "radio_tx",
+   "P_part_W": 0.5800000000000001,
+   "piece_mm2": 71.5,
+   "bbox": [
+    121.2,
+    96.2,
+    148.6,
+    108.4
+   ],
+   "vias": 2,
+   "G_vias_W_K": 0.04108749627624868,
+   "G_fr4_W_K": 0.10197586640864349,
+   "dT_K": 0.5937689793939711,
+   "Q_down_W": 0.062252095319584096,
+   "Q_vias_W": 0.001599610029017286,
+   "under": {
+    "GND": 98
+   },
+   "net_on_other_layers": [
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+   ],
+   "severity": "ok"
+  },
+  {
+   "ref": "U3",
+   "net": "VSYS",
+   "layer": "F.Cu",
+   "corner": "radio_tx",
+   "P_part_W": 0.5800000000000001,
+   "piece_mm2": 6.7,
+   "bbox": [
+    116.9,
+    101.6,
+    121.2,
+    105.6
+   ],
+   "vias": 1,
+   "G_vias_W_K": 0.02054374813812434,
+   "G_fr4_W_K": 0.009519212232508246,
+   "dT_K": 8.799587524731251,
+   "Q_down_W": 0.11313986331490439,
+   "Q_vias_W": 0.03409413887696674,
+   "under": {
+    "GND": 95
+   },
+   "net_on_other_layers": [
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+   ],
+   "flag": "one via only; 9 K between this pour and the layer below (solved, radio_tx, h nominal)",
+   "severity": "medium"
+  },
+  {
+   "ref": "U5",
+   "net": "3V3",
+   "layer": "F.Cu",
+   "corner": "radio_tx",
+   "P_part_W": 0.85,
+   "piece_mm2": 21.6,
+   "bbox": [
+    175.5,
+    103.6,
+    183.2,
+    109.2
+   ],
+   "vias": 1,
+   "G_vias_W_K": 0.02054374813812434,
+   "G_fr4_W_K": 0.03085189919122313,
+   "dT_K": 3.5235336959008663,
+   "Q_down_W": 0.1194234694359128,
+   "Q_vias_W": 0.014973471045543071,
+   "under": {
+    "GND": 98
+   },
+   "net_on_other_layers": [
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+   ],
+   "flag": "one via only; 4 K between this pour and the layer below (solved, radio_tx, h nominal)",
+   "severity": "medium"
+  }
+ ],
+ "stitching": {
+  "edge": {
+   "vias_within_3mm": 93,
+   "perimeter_mm": 206.3,
+   "gaps_over_10mm": []
+  },
+  "weak": [],
+  "grid": {
+   "x0": 109.018,
+   "y0": 90.863,
+   "rows": [
+    [
+     12,
+     6,
+     11,
+     6,
+     8,
+     5,
+     13,
+     10,
+     1
+    ],
+    [
+     13,
+     11,
+     9,
+     17,
+     21,
+     6,
+     15,
+     9,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   ]
+  },
+  "gnd_vias": 176,
+  "per_cm2": 10.2
+ },
+ "what_if": {
+  "pitch_mm": 3.0,
+  "added": 0,
+  "h": "nominal",
+  "corners": {},
+  "note": "no free spot on the outer ground pour at this pitch"
+ },
+ "coverage": {
+  "warnings": [
+   "underived: U1 switches /VREG_LX but no power pin of it has a capacitor to ground: configure its hot loop by hand",
+   "43 net(s) that reach a connector fell through to \"slow\" (no reference, crosstalk or edge checks; a cable makes them antennas and ESD entry points): GPIO1 (J4), GPIO2 (J4), GPIO3 (J4), GPIO4 (J4), GPIO5 (J4), GPIO6 (J4), GPIO7 (J4), GPIO8 (J4), GPIO9 (J4), GPIO10 (J4), GPIO11 (J4), GPIO12 (J4), GPIO13 (J4), GPIO14 (J4), GPIO15 (J4), GPIO16 (J4), GPIO17 (J4), GPIO18 (J4), GPIO19 (J4), GPIO20 (J4) - classify each one (its interface speed from the chip's datasheet, or \"slow_ext\" on purpose)",
+   "board_T_max_C not set: 105 C ASSUMED as the board limit (FR4 and solder mask in continuous use; check the laminate's Tg / MOT)",
+   "U3 dissipates 0.58 W at some corner but has no psi_jb / theta_jc in thermal.parts: its junction temperature is not estimated (board temperature only) - take them from its datasheet's thermal table",
+   "U5 dissipates 0.85 W at some corner but has no psi_jb / theta_jc in thermal.parts: its junction temperature is not estimated (board temperature only) - take them from its datasheet's thermal table",
+   "U1: heat placed on its thermal pad 81 (thermal.parts.U1.pads overrides)"
+  ],
+  "candidates": {
+   "U5": "part type U",
+   "D1": "part type D",
+   "D4": "part type D",
+   "D3": "part type D",
+   "U3": "part type U",
+   "U1": "part type U",
+   "R7": "resistor 1\u03a9 (<= 1 ohm: a shunt or series element)",
+   "U4": "part type U",
+   "USB1": "on a power run",
+   "L1": "part type L",
+   "J4": "on a power run",
+   "D2": "part type D",
+   "U6": "part type U"
+  },
+  "nodes": 76724,
+  "cells": [
+   70,
+   274
+  ],
+  "vias_modelled": 370,
+  "holes": 370,
+  "solve_s": 2.8
+ }
+}

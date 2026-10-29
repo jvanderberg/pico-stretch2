@@ -28,6 +28,30 @@ The same mismatch would also have silently broken the DC solver. `power.py` and 
 
 Fix: in a copy of the scripts (`review/boarddump_patched.py`), I made the dump write `pcbnew.BOARD.GetStandardLayerName()` for pad layers, track layers and the layer list. The whole pack then uses canonical names and `emc.py`, `planes.py` and `power.py` run unmodified. The plugin's own files were not touched.
 
+### Status (2026-10-29, `scripts/review_fixes.py`)
+
+Applied: **M1, m1, m2, m3, m8, m9, m11, m13**. Not done (by decision): M2 (cut-down board, aspirational), m4 (VBUS TVS: tried, then removed; see below), m5–m7, m10, m12, m14–m16. Each applied fix differs from the original suggestion as follows:
+
+- **M1:** C9/C15 carry C1's fields (C1525, CL05B104KO5NNNC), in schematic and board.
+- **m1:** the In1 cut-out now spans 132.5–137.3 × 97.45–100.15, with a step at x 134.75 up to y 99.85. It covers L1's LX pad and the LX pour. It covers part of the rest:
+  - L1's 1V1 pad: about half (53 % of it is still over In1 GND).
+  - C10/C12 supply pads: 14 % and 20 % still over In1 GND.
+  - 1V1 pour: 40 % still over In1 GND.
+  - The 1V1 via's centre (134.49, 100.18) is 0.03 mm outside the cut-out; only its antipad joins it.
+
+  It stops short of the USB pair so it does not reach y 100.8 as first suggested. The gap to USB_D− copper is 0.635 mm along x 134.75–136.25, but only 0.335 mm at the step corner (134.75, 100.15). The pair still runs over no void (DESIGN_REVIEW_2.md m2). The GND vias at (134.90, 98.72) and (135.87, 98.71) stay on plane.
+- **m2:** D3 sits in C39's old place (118.05, 101.92), with its D+ pad 0.5 mm under the F.Cu D+ track and its GND pad on the existing via. The B.Cu stub and both of D3's old vias are gone. TP4 hangs off R3's via. C39 moved to (117.85, 103.08), between R4 and C37, rotated 90° so that its GND pad faces D3's GND pad. That pad joins D3's via with a short track. With the VSYS pad at the top it sat 0.10 mm from D3's GND pad (DESIGN_REVIEW_2.md M1).
+- **m3:** R14 is 1 kΩ (C11702).
+- **m4:** not done. A VBUS TVS (D4, ESD5Z5.0T1G) was fitted and then removed, by decision. Its 6.2 V knee lowered the modelled worst-case hot-plug peak by only 0.2–0.3 V (DESIGN_REVIEW_2.md m1). The hot-plug ring needs a legacy A-to-C cable or an always-live supply; USB-C sources do not hot-plug VBUS.
+- **m8:** C40 is a 10 µF 0603 (C19702), at (122.45, 101.6) rotated 180, with a GND via in its pad. A track joins its 3V3 pad to U3.5.
+- **m9:** on J4 pads 29–36, the inboard end of the oval is 0.15 mm shorter. The gap to the RM2 pads is now 0.39 mm (was 0.24), with a 0.2 mm ring at the tip. The RM2 pads can't move, and the hole limits how far the pad can be clipped. Castellated.pretty was updated to match.
+- **m11:** U5 is DNP and has no F.Paste on its pads. Custom.pretty was updated to match.
+- **m13:** the pad 37 label is "40A0" on both sides; the front one uses a 0.8 × 0.55 font to stay clear of RM2 pad 8. The JP2/JP3 references are horizontal, above their boxes. The back "0" moved off JP1's box. The front "41A1" was left horizontal, because parts block the vertical slot.
+
+The courtyard overlaps of the new tight placements are named pairs in `pico-stretch2.kicad_dru`. The D3/R2 pair was removed. All 22 named pairs are real overlaps.
+
+Also from DESIGN_REVIEW_2.md M1: C13 moved 0.05 mm up, to (142.325, 96.025), so its 1V1 pad clears U1 pin 50 (3V3) by 0.177 mm instead of 0.127.
+
 ---
 
 ## Blockers
