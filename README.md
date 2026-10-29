@@ -2,7 +2,7 @@
 
 An RP2350B dev board that breaks out all 48 GPIO pins while following the original Raspberry Pi Pico footprint for the first 20 pins on each side. It adds another 12 pins on each side — keeping the same 0.1" pitch and castellated edges so it remains breadboard-friendly.
 
-The board supports PSRam (GP0 chip select) and the Radio Module 2 for WiFi/BT
+The board supports PSRam (chip select on GP0 or GP47) and the Radio Module 2 for WiFi/BT
 
 Features:
 - USB-C connector
@@ -77,8 +77,10 @@ Features:
 
 ## Optional parts and pin notes
 
-- **PSRAM (U6)** is not fitted by default. Solder an APS6404L-3SQR (3.3 V, SOP-8) and close JP1 to use it.
-  JP1 connects its chip select to GPIO0, so with the PSRAM fitted GPIO0 is no longer free for UART0 TX.
+- **PSRAM (U6)** is not fitted by default. Solder an APS6404L-3SQR (3.3 V, SOP-8) and close **one** of the
+  chip-select jumpers on the back: JP1 puts it on GPIO0, JP4 on GPIO47 (the RP2350 can use either as its
+  second QSPI chip select, QMI CS1n). Never close both. GPIO47 keeps GPIO0 free for UART0 TX and matches other
+  RP2350B PSRAM boards; the jumper you close takes that pin away from the castellated pad.
 - **Radio (U5, Raspberry Pi RM2)** is not fitted by default. GPIO24 (data/IRQ) and GPIO29 (clock) are wired
   straight to its pads; GPIO25 (CS) and GPIO23 (WL_ON) go through JP2 and JP3. With the radio fitted and
   the jumpers closed, all four belong to the radio.
@@ -89,6 +91,13 @@ Features:
 - The flash and PSRAM share a QSPI bus with three loads and no series resistors. The Pico 2 runs its flash
   at `PICO_FLASH_SPI_CLKDIV 2`. If you see flash or PSRAM errors at higher system clocks, use a larger
   divider (4) and test before going back down.
+
+## Back side
+
+- Every castellated pad is labelled on the back too, with the same text as the front.
+- Jumpers: JP1 = PSRAM CS on GPIO0, JP4 = PSRAM CS on GPIO47, JP2 + JP3 = radio (see above).
+- Test pads: TP1 = 1V1, TP2 = 3V3, TP3 = USB D-, TP4 = USB D+ (on the connector side of the 33 Ω
+  resistors, labelled D- and D+).
 
 ## Production files for JLCPCB
 
