@@ -6,3 +6,6 @@
 
 # VS Code Local History extension (has its own .git inside)
 .history/
+
+# KiCad automatic project backups
+*-backups/
