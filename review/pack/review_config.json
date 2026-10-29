@@ -1,0 +1,37 @@
+{
+  "_comment": "pico-stretch2 review config. Currents: RP2350 core via VREG up to 200 mA (datasheet 6.3), VREG_VIN draw ~0.1 A; RM2 Tx 271 mA typ (RM2 datasheet 1.2) -> 0.35 A peak used; 3V3 pin user load 0.3 A (Pico spec); flash/PSRAM 25 mA each. USB VBUS 0.9 A worst (radio + 3V3 out + VBUS passthrough).",
+  "ground_nets": ["GND"],
+  "net_classes": [
+    {"match": "^USB2?_D[+-]$", "class": "usb"},
+    {"match": "^QSPI_|QSPI_SS|JP1-A", "class": "qspi"},
+    {"match": "^GPIO(24|25|29)$|JP2-A|U5-DO|U5-nIRQ", "class": "spi"},
+    {"match": "XIN|XOUT|C17-Pad1", "class": "clock"},
+    {"match": "VREG_LX", "class": "switch"},
+    {"match": "^(SWCLK|SWDIO)$", "class": "swd"},
+    {"match": "^GPIO47", "class": "qspi"},
+    {"match": "^GPIO0$", "class": "qspi"},
+    {"match": "^RUN$|VREG_AVDD|ADC_AVDD|ADC_VREF", "class": "sensitive"},
+    {"match": "^(VBUS|VSYS|3V3|1V1|3V3_EN)$", "class": "power"}
+  ],
+  "fast_classes": ["usb", "qspi", "spi", "clock", "switch", "swd", "sensitive"],
+  "diff_pairs": [["USB_D+", "USB_D-"], ["USB2_D+", "USB2_D-"]],
+  "rail_voltages": {"VBUS": 5, "VSYS": 4.7, "1V1": 1.1, "3V3": 3.3},
+  "hot_loops": [
+    {"ic": "U1", "in_net": "3V3", "gnd_net": "GND", "label": "RP2350 VREG_VIN input (CIN)"},
+    {"ic": "U1", "in_net": "1V1", "gnd_net": "GND", "label": "RP2350 VREG output (COUT)"},
+    {"ic": "U3", "in_net": "VSYS", "gnd_net": "GND", "label": "ME6217 LDO input"},
+    {"ic": "U3", "in_net": "3V3", "gnd_net": "GND", "label": "ME6217 LDO output"}
+  ],
+  "power_runs": [
+    {"name": "vbus", "net": "VBUS", "title": "USB-C VBUS pins to D1 anode and castellated VBUS pad, 0.9 A",
+     "source": ["USB1:2", "USB1:11"], "sinks": [["D1:2", 0.9]]},
+    {"name": "vsys", "net": "VSYS", "title": "D1 cathode to LDO input, 0.9 A",
+     "source": ["D1:1"], "sinks": [["U3:1", 0.9]]},
+    {"name": "p3v3", "net": "3V3", "title": "LDO out to RP2350 VREG_VIN, IOVDD, flash, RM2 and the 3V3 pad", "h": 0.1,
+     "source": ["U3:5"], "sinks": [["U1:64", 0.1], ["U1:5", 0.01], ["U1:15", 0.01], ["U1:24", 0.01], ["U1:29", 0.01], ["U1:41", 0.01], ["U1:50", 0.01], ["U1:60", 0.01], ["U1:76", 0.01], ["U1:69", 0.01], ["U4:8", 0.025], ["U5:16", 0.35], ["J4:60", 0.3]]},
+    {"name": "p1v1", "net": "1V1", "title": "L1 output to RP2350 DVDD pins, 0.2 A", "h": 0.1,
+     "source": ["L1:2"], "sinks": [["U1:10", 0.07], ["U1:32", 0.07], ["U1:51", 0.06]]},
+    {"name": "gnd_return", "net": "GND", "title": "Ground return from RP2350, RM2, LDO and 3V3 pad load to USB-C GND pins", "h": 0.15,
+     "source": ["USB1:1", "USB1:12"], "sinks": [["U1:81", -0.15], ["U1:62", -0.1], ["U5:15", -0.35], ["U3:2", -0.05], ["J4:62", -0.3]]}
+  ]
+}
