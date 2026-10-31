@@ -18,6 +18,7 @@ USB end at -x: Pico (x, y) -> board (110.8 - (y - 49.63), 110.38 - (x - 1.61)).
 - TP5 (new, GND) at the Pico TP1 position, joined to In1 / In2 by a via inside its pad, placed off-centre to clear the
   F.Cu VBUS track above it.
 - The two GND stitching vias at (110.9, 100.59) and (110.9, 102.58), which sit where the D- / D+ pads go, are removed.
+- TP1-TP5 and J4 (copper only) are left out of the BOM and position files, as JP1-JP4 already are.
 - The back "D-" / "D+" labels move beside the new pads; a "G" label is added for TP5; JP1's reference moves off TP4.
 """
 import glob
@@ -72,7 +73,6 @@ fp.set('tags', 'test point SMD pad Pico castellated module')
 for p in fp.nodes('property'):
     if p[1] == 'Value':
         p[2] = FP_NAME
-fp.remove_all('attr')                                # the existing TPs are plain parts, schematic parity unchanged
 for ln in list(fp.nodes('fp_line')):
     if ln.need('layer')[1] == 'F.SilkS':
         fp.remove_node(ln)                           # pads 2 mm apart: no silk box
@@ -185,6 +185,27 @@ jp1 = pcb.footprint('JP1')
 ref = jp1.field('Reference').need('at')
 assert near(jp1.at, (111.6, 107.8)) and abs(jp1.angle - 180) < EPS
 ref[1], ref[2] = -1.35, 3.1        # local to JP1 (rotated 180): (112.95, 104.7) on the board
+
+# ------------------------------------------------------------------ bare copper out of the BOM and position files
+# Test pads and the castellated edge (J4) are copper only: nothing for JLC to place, and TP1-TP5 on the back would
+# otherwise appear as bottom-side placements in the CPL. Same treatment as the solder jumpers JP1-JP4.
+for ref in ('TP1', 'TP2', 'TP3', 'TP4', 'TP5', 'J4'):
+    n = sch.symbol(ref).node
+    n.set('in_bom', False)
+    n.set('in_pos_files', False)
+    f = pcb.footprint(ref).node
+    kind = [a for a in (f.find('attr') or Node('attr')).args if str(a) in ('smd', 'through_hole')]
+    attr = Node('attr', *kind, Sym('exclude_from_pos_files'), Sym('exclude_from_bom'))
+    if f.find('attr') is not None:
+        f.remove_all('attr')
+    f.insert_before('duplicate_pad_numbers_are_jumpers', attr) if f.find('duplicate_pad_numbers_are_jumpers') is not None \
+        else f.insert_before('fp_line', attr)
+castellated = os.path.join(out, 'Castellated.pretty', 'Castellated_Pad_64.kicad_mod')
+cp = load(castellated)
+old_attr = cp.need('attr')
+cp.insert(cp.index(old_attr), Node('attr', Sym('smd'), Sym('exclude_from_pos_files'), Sym('exclude_from_bom')))
+cp.remove_node(old_attr)                             # same place in the file as the old (attr smd)
+save(cp, castellated)
 
 pcb.save()
 sch.save()

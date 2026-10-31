@@ -15953,7 +15953,7 @@
 			)
 		)
 		(clearance 0.1)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.95 -2.56)
@@ -20519,6 +20519,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.7 0.7)
@@ -20868,6 +20869,7 @@
 		(path "/9e8c984c-e114-5290-82b4-aa752b4659da")
 		(sheetname "/")
 		(sheetfile "pico-stretch2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.95 -0.95)
@@ -20993,6 +20995,7 @@
 		(path "/fcc1c73f-4646-574f-bb26-5465e246fbf6")
 		(sheetname "/")
 		(sheetfile "pico-stretch2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.95 -0.95)
@@ -21662,6 +21665,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.7 0.7)
@@ -21828,6 +21832,7 @@
 		(path "/172b1458-f1d0-57cc-ac43-3611e8be423e")
 		(sheetname "/")
 		(sheetfile "pico-stretch2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.95 -0.95)
