@@ -115,22 +115,29 @@ carrier designed for a Pico. The other 24 pads and the radio end overhang the Pi
 
 ## Production files for JLCPCB
 
-Production files live in the `production/` directory:
+Production files live in the `production/` directory, written by
+[JLCImport](https://github.com/jvanderberg/kicad_jlcimport)'s `jlcimport-cli production` from the board as it is:
 
-- `pico-stretch2.zip` — zipped Gerber files
-- `bom.csv` — bill of materials
-- `positions.csv` — component placement file
+- `pico-stretch2-gerbers.zip` — Gerber and drill files (the same files, unzipped, are in `gerbers/`)
+- `pico-stretch2-bom.csv` — bill of materials
+- `pico-stretch2-cpl.csv` — component placement file, with rotations solved against JLC's own footprints
+- `pico-stretch2-report.txt` — the production check: stock, part types, fees, and the placements to look at in
+  JLC's preview
+
+To regenerate after a board change: `jlcimport-cli production pico-stretch2.kicad_pcb` (add `--force` to write
+the files even when the check reports an error, such as a part out of stock).
 
 When ordering:
 
 - Choose epoxy-filled and capped vias: the board has vias in pads.
 - Select the castellated holes option.
 - Use the JLC04161H-7628 stackup (set in the board file).
-- U6 (PSRAM) is marked DNP and left out of the BOM and placement files; clear DNP if you want JLC to fit it.
+- U5 (RM2) and U6 (PSRAM) are marked DNP and left out of the BOM and placement files; clear DNP if you want JLC
+  to fit U6.
 - L1 (AOTA-B201610S3R3-101-T, C42411119) is often out of stock at JLC: pre-order it into your JLC parts
   library or consign it. Do not substitute another inductor; the RP2350 regulator needs this
   polarity-marked part.
-- Check pin 1 of U1, U3, U4 and the diodes in JLC's placement preview.
+- Check pin 1 of U1, U3, U4 and the diodes, and the LED, in JLC's placement preview.
 
 ## Regenerating images
 

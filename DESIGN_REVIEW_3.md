@@ -30,6 +30,8 @@ problems; those are M1 and m1-m2, but every checklist area was reviewed.
 
 ### B1. X1, the 12 MHz crystal (ABM8-272-T3, C20625731), is out of stock
 
+**Owner decision (2026-10-31): a momentary supply issue, not a design item. Closed; no change.**
+
 - **Evidence:** `jlcimport-cli production --check-only`: "error X1 Out of stock"; `jlcimport-cli search C20625731`:
   stock N/A (global). Review 2 found 845 on 2026-10-29. No other LCSC listing of ABM8-272-T3 has stock.
 - **Consequence:** JLC will not place X1. Without the crystal the RP2350 has no USB, so the boards arrive unable to
@@ -253,12 +255,11 @@ footprint (Pico 2 datasheet 3.2, Figure 5; pin 1 hole at (1.61, 49.63) per Figur
 
 ## Before ordering
 
-1. Resolve X1 (B1).
-2. Regenerate `production/` from the current board with one tool, remove the other set, update the README (m4).
-3. Order options: epoxy-filled and capped vias; castellated holes; JLC04161H-7628; leave the via-size option at its
+1. Regenerate `production/` from the current board with one tool, remove the other set, update the README (m4).
+2. Order options: epoxy-filled and capped vias; castellated holes; JLC04161H-7628; leave the via-size option at its
    default (no charged vias remain).
-4. Check D1, PWR_LED1, U1, U3, U4 and the moved C39 / C40 / D3 / C13 in JLC's placement preview.
-5. Pre-order or consign L1 (and X1 if (a)).
+3. Check D1, PWR_LED1, U1, U3, U4 and the moved C39 / C40 / D3 / C13 in JLC's placement preview.
+4. Pre-order or consign L1.
 
 ## Limits
 
