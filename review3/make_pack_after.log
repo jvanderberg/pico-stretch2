@@ -1,0 +1,46 @@
+note: not open: safe to edit (no KiCad process holds /tmp/psr4/fix, no lock files)
+note: the pack reads the project files as saved on disk
+69 footprints 874 tracks 235 vias 15 zones, 4 copper layers, 1913 connectivity links
+67 components 93 nets -> /Users/joshv/git/pico-stretch2/review3/pack_after/netlist.md
+topology: ground nets: GND (configured)
+topology: switch nodes (1):
+topology:   /VREG_LX: inductor L1.1 meets U1.63 with no capacitor to ground
+topology: switching ICs (1):
+topology:   U1 RP2350B_C42415655: buck or boost: inductor DC side on 1V1; hot-loop candidates: none
+topology: UNDERIVED: U1 switches /VREG_LX but no power pin of it has a capacitor to ground: configure its hot loop by hand
+  !! underived: U1 switches /VREG_LX but no power pin of it has a capacitor to ground: configure its hot loop by hand
+  !! 43 net(s) that reach a connector fell through to "slow" (no reference, crosstalk or edge checks; a cable makes them antennas and ESD entry points): GPIO1 (J4), GPIO2 (J4), GPIO3 (J4), GPIO4 (J4), GPIO5 (J4), GPIO6 (J4), GPIO7 (J4), GPIO8 (J4), GPIO9 (J4), GPIO10 (J4), GPIO11 (J4), GPIO12 (J4), GPIO13 (J4), GPIO14 (J4), GPIO15 (J4), GPIO16 (J4), GPIO17 (J4), GPIO18 (J4), GPIO19 (J4), GPIO20 (J4) - classify each one (its interface speed from the chip's datasheet, or "slow_ext" on purpose)
+  !! no ground copper (zones on ['GND']) on B.Cu
+planes ok {'F.Cu': (1.2, 2), 'In1.Cu': (80.6, 1), 'In2.Cu': (81.3, 1), 'B.Cu': (0.0, 0)} 0 edge gaps 0 weak pieces
+  !! underived: U1 switches /VREG_LX but no power pin of it has a capacitor to ground: configure its hot loop by hand
+  !! 43 net(s) that reach a connector fell through to "slow" (no reference, crosstalk or edge checks; a cable makes them antennas and ESD entry points): GPIO1 (J4), GPIO2 (J4), GPIO3 (J4), GPIO4 (J4), GPIO5 (J4), GPIO6 (J4), GPIO7 (J4), GPIO8 (J4), GPIO9 (J4), GPIO10 (J4), GPIO11 (J4), GPIO12 (J4), GPIO13 (J4), GPIO14 (J4), GPIO15 (J4), GPIO16 (J4), GPIO17 (J4), GPIO18 (J4), GPIO19 (J4), GPIO20 (J4) - classify each one (its interface speed from the chip's datasheet, or "slow_ext" on purpose)
+  !! same-net isolation NOT CHECKED: no "islands" in review_config.json. A single-point or quiet ground merged into the main pour is same-net copper, invisible to DRC and to the hot-loop table (1 switching IC(s) on this board); declare each island (net, layer, its pads, allowed joins) from the datasheet layout rules
+islands ok: 0 declared, 0 failing
+emc ok: ref 109 xt 67 vias 41 edge 0 loops 25 fast 29 | switch nodes 1 (derived 1) | hot loops checked 4 of 4
+  !! underived: U1 switches /VREG_LX but no power pin of it has a capacitor to ground: configure its hot loop by hand
+  !! 43 net(s) that reach a connector fell through to "slow" (no reference, crosstalk or edge checks; a cable makes them antennas and ESD entry points): GPIO1 (J4), GPIO2 (J4), GPIO3 (J4), GPIO4 (J4), GPIO5 (J4), GPIO6 (J4), GPIO7 (J4), GPIO8 (J4), GPIO9 (J4), GPIO10 (J4), GPIO11 (J4), GPIO12 (J4), GPIO13 (J4), GPIO14 (J4), GPIO15 (J4), GPIO16 (J4), GPIO17 (J4), GPIO18 (J4), GPIO19 (J4), GPIO20 (J4) - classify each one (its interface speed from the chip's datasheet, or "slow_ext" on purpose)
+  !! diff pair USB_D+/USB_D- on F.Cu: same-layer copper 0.10 mm from the pair at [134.2, 100.86] (median 0.28 mm; it stops mattering beyond about 0.63 mm = max(2 w, 3 h)): the line is partly coplanar and its impedance is LOWER than the edge-coupled 133 ohm (grounded-coplanar estimate at that gap: Z0 70 ohm vs microstrip 82). Keep the pour back along the run (a keepout or a clearance rule) or design it as coplanar, and confirm with the fab's impedance calculator for this stackup
+  !! diff pair USB_D+/USB_D- on F.Cu: Zdiff about 133 ohm vs target 90 (estimate: verify with the fab's calculator)
+  !! diff pair USB2_D+/USB2_D- on F.Cu: same-layer copper 0.31 mm from the pair at [117.64, 101.43] (median 0.84 mm; it stops mattering beyond about 0.63 mm = max(2 w, 3 h)): the line is partly coplanar and its impedance is LOWER than the edge-coupled 144 ohm (grounded-coplanar estimate at that gap: Z0 79 ohm vs microstrip 80). Keep the pour back along the run (a keepout or a clearance rule) or design it as coplanar, and confirm with the fab's impedance calculator for this stackup
+  !! diff pair USB2_D+/USB2_D- on F.Cu: Zdiff about 144 ohm vs target 90 (estimate: verify with the fab's calculator)
+  !! diff pair USB2_D+/USB2_D- on B.Cu: same-layer copper 0.25 mm from the pair at [119.48, 101.3] (median 0.40 mm; it stops mattering beyond about 0.63 mm = max(2 w, 3 h)): the line is partly coplanar and its impedance is LOWER than the edge-coupled 144 ohm (grounded-coplanar estimate at that gap: Z0 70 ohm vs microstrip 72). Keep the pour back along the run (a keepout or a clearance rule) or design it as coplanar, and confirm with the fab's impedance calculator for this stackup
+  !! diff pair USB2_D+/USB2_D- on B.Cu: Zdiff about 144 ohm vs target 90 (estimate: verify with the fab's calculator)
+  !! hot loop U1 RP2350 VREG_VIN input (CIN) (cap C36): ground return: 100 % of the current leaves F.Cu through vias (100 % through one via (0.45/0.2 mm) at [137.09, 96.48]) - C36 and U1.GND pin are not joined directly on that layer, so the loop closes through an inner layer (path 1.6 mOhm)
+  !! hot loop U1 RP2350 VREG output (COUT) (cap C13): ground return: 100 % of the current leaves F.Cu through vias (100 % through one via (0.45/0.2 mm) at [142.32, 95.59]) - C13 and U1.GND pin are not joined directly on that layer, so the loop closes through an inner layer (path 1.5 mOhm)
+  !! hot loop U3 ME6217 LDO input (cap C37): ground return: 100 % of the current leaves F.Cu through vias (100 % through one via (0.45/0.2 mm) at [118.86, 104.67]) - C37 and U3.GND pin are not joined directly on that layer, so the loop closes through an inner layer (path 2.1 mOhm)
+  !! hot loop U3 ME6217 LDO output (cap C38): ground return: 100 % of the current leaves F.Cu through vias (100 % through one via (0.45/0.2 mm) at [124.18, 101.77]) - C38 and U3.GND pin are not joined directly on that layer, so the loop closes through an inner layer (path 2.3 mOhm)
+  !! underived: U1 switches /VREG_LX but no power pin of it has a capacitor to ground: configure its hot loop by hand
+  !! 43 net(s) that reach a connector fell through to "slow" (no reference, crosstalk or edge checks; a cable makes them antennas and ESD entry points): GPIO1 (J4), GPIO2 (J4), GPIO3 (J4), GPIO4 (J4), GPIO5 (J4), GPIO6 (J4), GPIO7 (J4), GPIO8 (J4), GPIO9 (J4), GPIO10 (J4), GPIO11 (J4), GPIO12 (J4), GPIO13 (J4), GPIO14 (J4), GPIO15 (J4), GPIO16 (J4), GPIO17 (J4), GPIO18 (J4), GPIO19 (J4), GPIO20 (J4) - classify each one (its interface speed from the chip's datasheet, or "slow_ext" on purpose)
+decoupling ok: 22 IC supply pins, 0 flagged (limit 5.0 mm of track)
+vbus           VBUS               cells    1266  P 0.00 W  worst drop 3.2 mV  R_eff 3.6 mOhm  max via 0.00 A  (0s)
+vsys           VSYS               cells    1651  P 0.01 W  worst drop 19.9 mV  R_eff 17.9 mOhm  max via 0.90 A  (0s)
+p3v3           3V3                cells   14445  P 0.01 W  worst drop 28.3 mV  R_eff 18.9 mOhm  max via 0.35 A  (4s)
+p1v1           1V1                cells    2759  P 0.00 W  worst drop 4.2 mV  R_eff 14.0 mOhm  max via 0.20 A  (0s)
+gnd_return     GND                cells  136083  P 0.00 W  worst drop -0.6 mV  R_eff 1.1 mOhm  max via 0.44 A  (21s)
+  !! thermal source D4 is not on the board: its loss is not placed anywhere
+  !! board_T_max_C not set: 105 C ASSUMED as the board limit (FR4 and solder mask in continuous use; check the laminate's Tg / MOT)
+  !! U3 dissipates 0.58 W at some corner but has no psi_jb / theta_jc in thermal.parts: its junction temperature is not estimated (board temperature only) - take them from its datasheet's thermal table
+  !! U5 dissipates 0.85 W at some corner but has no psi_jb / theta_jc in thermal.parts: its junction temperature is not estimated (board temperature only) - take them from its datasheet's thermal table
+thermal ok: 2 corner(s), 0.24, 1.65 W; 1 exposed pads, 3 hot-part pours; 4.0 s
+report ok -> board_overview.md, power.md, emc.md
+pack ready: /Users/joshv/git/pico-stretch2/review3/pack_after (netlist.md board_overview.md power.md emc.md thermal.md drc.md) - read the 'Coverage and warnings' section of power.md, emc.md and thermal.md first

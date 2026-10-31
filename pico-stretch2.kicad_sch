@@ -16804,6 +16804,16 @@
 		)
 		(uuid "80e7af4e-ca9b-5ada-a6b0-b76e4f07a64a")
 	)
+	(wire
+		(pts
+			(xy 298.45 236.22) (xy 298.45 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952bd8d2-dda0-5221-a71f-c84aa3eb2ab5")
+	)
 	(image
 		(at 412.75 153.67)
 		(scale 0.394554)
@@ -37350,7 +37360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "100nF"
 			(at 128.778 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37372,7 +37382,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf"
 			(at 127 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -37383,7 +37393,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
 			(at 127 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -37394,7 +37404,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23733"
+		(property "LCSC" "C1525"
 			(at 127 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -37405,7 +37415,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 127 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -37416,7 +37426,40 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL05A475MP5NRNC"
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 127 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1525"
+			(at 127 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 127 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "100nF ±10% 16V"
 			(at 127 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -40304,7 +40347,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "4.7uF"
 			(at 135.636 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40326,7 +40369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -40337,7 +40380,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
+		(property "Description" "10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 133.35 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -40349,7 +40392,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "CL05B104KO5NNNC"
+		(property "Manufacturer Part" "CL05A475MP5NRNC"
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -40360,7 +40403,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -40371,40 +40414,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C1525"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "100nF ±10% 16V"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C23733"
 			(at 133.35 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -52270,7 +52280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Custom:TestPoint_Pad_1.5x1.5mm_R0.3mm"
 			(at 290.83 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -52346,7 +52356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Custom:TestPoint_Pad_1.5x1.5mm_R0.3mm"
 			(at 290.83 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -52465,6 +52475,159 @@
 			(project "pico-stretch2"
 				(path "/879934c2-924b-48fd-aecd-6699a94a302d"
 					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 298.45 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e8c984c-e114-5290-82b4-aa752b4659da")
+		(property "Reference" "TP5"
+			(at 298.45 229.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 298.45 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:TestPoint_Pad_1.5x1.5mm_R0.3mm"
+			(at 303.53 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 298.45 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff70b810-4695-57d2-83f6-a790bd62c693")
+		)
+		(instances
+			(project "pico-stretch2"
+				(path "/879934c2-924b-48fd-aecd-6699a94a302d"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 298.45 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be63fe7c-052d-5b40-a66c-77c62b434341")
+		(property "Reference" "#PWR001"
+			(at 298.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 298.45 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 298.45 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5473e04b-debf-5f9a-9cd7-10d049354f9a")
+		)
+		(instances
+			(project "pico-stretch2"
+				(path "/879934c2-924b-48fd-aecd-6699a94a302d"
+					(reference "#PWR001")
 					(unit 1)
 				)
 			)

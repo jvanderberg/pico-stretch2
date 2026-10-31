@@ -1,0 +1,84 @@
+JLCPCB production check
+=======================
+69 footprints, 24 unique LCSC parts, 5 boards
+1 errors, 8 warnings
+8 extended parts (each adds a feeder loading fee, est. $24.00 on Economic PCBA): C92589, C110493, C427602, C2765186, C3029033, C20625731, C42411119, C42415655
+1 preferred extended parts (no loading fee on Economic assembly): C25086
+Estimated parts cost: $30.40 (unit prices at order quantity, excl. fees)
+6 placements unverified (KiCad position/rotation used)
+
+[ERROR] X1: Out of stock
+[WARNING] D1, PWR_LED1: Polarized part: check its polarity in JLC's placement preview
+[WARNING] J2, J4, TP1, TP2, TP3, TP4: No LCSC part number — JLCPCB will not assemble this part
+
+Ref      Value            LCSC        Stock                      Type          Rot Conf       Notes
+---------------------------------------------------------------------------------------------------
+Boot1    K2-1808SN-A4SW   C92589      In stock (12466)           Extended      180 high       Extended part (loading fee)
+C1       100nF            C1525       In stock (35635565)        Basic         225 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C2       4.7uF            C23733      In stock (2834511)         Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C3       100nF            C1525       In stock (35635565)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C4       100nF            C1525       In stock (35635565)        Basic         270 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C5       100nF            C1525       In stock (35635565)        Basic         315 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C6       100nF            C1525       In stock (35635565)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C7       100nF            C1525       In stock (35635565)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C8       100nF            C1525       In stock (35635565)        Basic          45 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C9       100nF            C1525       In stock (35635565)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C10      4.7uF            C23733      In stock (2834511)         Basic          90 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C11      4.7uF            C23733      In stock (2834511)         Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C12      4.7uF            C23733      In stock (2834511)         Basic          90 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C13      100nF            C1525       In stock (35635565)        Basic         270 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C15      100nF            C1525       In stock (35635565)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C16      100nF            C1525       In stock (35635565)        Basic          90 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C17      15pF             C1548       In stock (1335891)         Basic          90 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C18      15pF             C1548       In stock (1335891)         Basic          90 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C19      4.7uF            C23733      In stock (2834511)         Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C21      100nF            C1525       In stock (35635565)        Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C22      100nF            C1525       In stock (35635565)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C23      100nF            C1525       In stock (35635565)        Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C24      CL10A475KO8NNNC  C19666      In stock (4216791)         Basic          90 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C36      100nF            C1525       In stock (35635565)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C37      10uF             C19702      In stock (11776487)        Basic         270 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C38      CL05B104KO5NNNC  C1525       In stock (35635565)        Basic          90 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C39      CL05B104KO5NNNC  C1525       In stock (35635565)        Basic          90 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+C40      10uF             C19702      In stock (11776487)        Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+D1       DFLS130L-7       C110493     In stock (6062)            Extended      180 medium     Extended part (loading fee); Polarized part: check its polarity in JLC's placement preview; Placement solved: no pin names on the board pads; assumed KiCad's convention (diode/LED: pad 1 = cathode, polarized capacitor: pad 1 = +); JLC's side from the + / - marks its footprint draws beside the pads
+D2       RCLAMP0521P_TCT… C3029033    In stock (126366)          Extended        0 high       Extended part (loading fee); symmetric 2-terminal part: polarity relies on pad numbering only
+D3       RCLAMP0521P_TCT… C3029033    In stock (126366)          Extended        0 high       Extended part (loading fee); symmetric 2-terminal part: polarity relies on pad numbering only
+G***     LOGO                         excluded                                                
+G***     LOGO                         excluded                                                
+J2       Conn_01x03_Pin               -                                          0 unverified No LCSC part number — JLCPCB will not assemble this part; Placement unverified
+J4       Conn_01x64_Cast…             -                                          0 unverified No LCSC part number — JLCPCB will not assemble this part; Placement unverified
+JP1      SolderJumper_2_…             excluded                                                
+JP2      SolderJumper_2_…             excluded                                                
+JP3      SolderJumper_2_…             excluded                                                
+JP4      SolderJumper_2_…             excluded                                                
+L1       AOTA-B201610S3R… C42411119   In stock (464)             Extended      270 high       Extended part (loading fee); symmetric 2-terminal part: polarity relies on pad numbering only
+PWR_LED1 KT-0603R         C2286       In stock (7185837)         Basic           0 medium     Polarized part: check its polarity in JLC's placement preview; Placement solved: polarity matched by pin name (anode/cathode or +/-); JLC numbers this part's pads the other way round; paired by polarity instead; JLC's side from the + / - marks its footprint draws beside the pads
+R1       5.1kΩ            C25905      In stock (5085581)         Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R2       33Ω              C25105      In stock (1930263)         Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R3       33Ω              C25105      In stock (1930263)         Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R4       5.1kΩ            C25905      In stock (5085581)         Basic          90 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R5       1kΩ              C11702      In stock (21445996)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R6       33Ω              C25105      In stock (1930263)         Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R7       1Ω               C25086      In stock (89994)           Preferred     180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R8       200Ω             C25087      In stock (1899823)         Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R9       10kΩ             C25744      In stock (16648188)        Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R10      10kΩ             C25744      In stock (16648188)        Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R11      100kΩ            C25741      In stock (8287395)         Basic         270 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R12      2kΩ              C4109       In stock (10736519)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R14      1kΩ              C11702      In stock (21445996)        Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R15      470Ω             C25117      In stock (1218135)         Basic         180 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R16      10kΩ             C25744      In stock (16648188)        Basic           0 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+R28      1kΩ              C11702      In stock (21445996)        Basic         270 medium     Placement solved: symmetric 2-terminal part: polarity relies on pad numbering only; pad positions differ slightly from the JLC footprint
+Reset1   K2-1808SN-A4SW   C92589      In stock (12466)           Extended        0 high       Extended part (loading fee)
+TP1      TestPoint                    -                                          0 unverified No LCSC part number — JLCPCB will not assemble this part; Placement unverified
+TP2      TestPoint                    -                                          0 unverified No LCSC part number — JLCPCB will not assemble this part; Placement unverified
+TP3      TestPoint                    -                                          0 unverified No LCSC part number — JLCPCB will not assemble this part; Placement unverified
+TP4      TestPoint                    -                                          0 unverified No LCSC part number — JLCPCB will not assemble this part; Placement unverified
+U1       RP2350B_C424156… C42415655   In stock (1932)            Extended       90 high       Extended part (loading fee)
+U3       ME6217C33M5G     C427602     In stock (74632)           Extended      180 medium     Extended part (loading fee); Placement solved: pad positions differ slightly from the JLC footprint
+U4       W25Q128JVSIQTR   C97521      In stock (66472)           Basic         270 medium     Placement solved: pad positions differ slightly from the JLC footprint
+U5       RPI Radio Modul…             DNP                                                     
+U6       APS6404L-3SQR    C5333729    DNP                                                     
+USB1     TYPE-C_16PIN_2M… C2765186    In stock (973975)          Extended      270 medium     Extended part (loading fee); Placement solved: pad numbers differ from the JLC footprint; pads matched by position
+X1       ABM8-272-T3_C20… C20625731   Out of stock               Extended       90 high       Out of stock; Extended part (loading fee)

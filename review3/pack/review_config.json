@@ -1,0 +1,363 @@
+{
+ "_comment": "pico-stretch2 review config. Currents: RP2350 core via VREG up to 200 mA (datasheet 6.3), VREG_VIN draw ~0.1 A; RM2 Tx 271 mA typ (RM2 datasheet 1.2) -> 0.35 A peak used; 3V3 pin user load 0.3 A (Pico spec); flash/PSRAM 25 mA each. USB VBUS 0.9 A worst (radio + 3V3 out + VBUS passthrough). Review 2 (2026-10-29): same classes and runs as review/pack, plus diff-pair target and decoupling limit; thermal and islands added after the first build.",
+ "ground_nets": [
+  "GND"
+ ],
+ "net_classes": [
+  {
+   "match": "^USB2?_D[+-]$",
+   "class": "usb"
+  },
+  {
+   "match": "^QSPI_|QSPI_SS|JP1-A",
+   "class": "qspi"
+  },
+  {
+   "match": "^GPIO(24|25|29)$|JP2-A|U5-DO|U5-nIRQ",
+   "class": "spi"
+  },
+  {
+   "match": "XIN|XOUT|C17-Pad1",
+   "class": "clock"
+  },
+  {
+   "match": "VREG_LX",
+   "class": "switch"
+  },
+  {
+   "match": "^(SWCLK|SWDIO)$",
+   "class": "swd"
+  },
+  {
+   "match": "^GPIO47",
+   "class": "qspi"
+  },
+  {
+   "match": "^GPIO0$",
+   "class": "qspi"
+  },
+  {
+   "match": "^RUN$|VREG_AVDD|ADC_AVDD|ADC_VREF",
+   "class": "sensitive"
+  },
+  {
+   "match": "^(VBUS|VSYS|3V3|1V1|3V3_EN)$",
+   "class": "power"
+  }
+ ],
+ "fast_classes": [
+  "usb",
+  "qspi",
+  "spi",
+  "clock",
+  "switch",
+  "swd",
+  "sensitive"
+ ],
+ "diff_pairs": [
+  {
+   "nets": [
+    "USB_D+",
+    "USB_D-"
+   ],
+   "target_ohm": 90
+  },
+  {
+   "nets": [
+    "USB2_D+",
+    "USB2_D-"
+   ],
+   "target_ohm": 90
+  }
+ ],
+ "rail_voltages": {
+  "VBUS": 5,
+  "VSYS": 4.7,
+  "1V1": 1.1,
+  "3V3": 3.3
+ },
+ "hot_loops": [
+  {
+   "ic": "U1",
+   "in_net": "3V3",
+   "gnd_net": "GND",
+   "label": "RP2350 VREG_VIN input (CIN)"
+  },
+  {
+   "ic": "U1",
+   "in_net": "1V1",
+   "gnd_net": "GND",
+   "label": "RP2350 VREG output (COUT)"
+  },
+  {
+   "ic": "U3",
+   "in_net": "VSYS",
+   "gnd_net": "GND",
+   "label": "ME6217 LDO input"
+  },
+  {
+   "ic": "U3",
+   "in_net": "3V3",
+   "gnd_net": "GND",
+   "label": "ME6217 LDO output"
+  }
+ ],
+ "power_runs": [
+  {
+   "name": "vbus",
+   "net": "VBUS",
+   "title": "USB-C VBUS pins to D1 anode and castellated VBUS pad, 0.9 A",
+   "source": [
+    "USB1:2",
+    "USB1:11"
+   ],
+   "sinks": [
+    [
+     "D1:2",
+     0.9
+    ]
+   ]
+  },
+  {
+   "name": "vsys",
+   "net": "VSYS",
+   "title": "D1 cathode to LDO input, 0.9 A",
+   "source": [
+    "D1:1"
+   ],
+   "sinks": [
+    [
+     "U3:1",
+     0.9
+    ]
+   ]
+  },
+  {
+   "name": "p3v3",
+   "net": "3V3",
+   "title": "LDO out to RP2350 VREG_VIN, IOVDD, flash, RM2 and the 3V3 pad",
+   "h": 0.1,
+   "source": [
+    "U3:5"
+   ],
+   "sinks": [
+    [
+     "U1:64",
+     0.1
+    ],
+    [
+     "U1:5",
+     0.01
+    ],
+    [
+     "U1:15",
+     0.01
+    ],
+    [
+     "U1:24",
+     0.01
+    ],
+    [
+     "U1:29",
+     0.01
+    ],
+    [
+     "U1:41",
+     0.01
+    ],
+    [
+     "U1:50",
+     0.01
+    ],
+    [
+     "U1:60",
+     0.01
+    ],
+    [
+     "U1:76",
+     0.01
+    ],
+    [
+     "U1:69",
+     0.01
+    ],
+    [
+     "U4:8",
+     0.025
+    ],
+    [
+     "U5:16",
+     0.35
+    ],
+    [
+     "J4:60",
+     0.3
+    ]
+   ]
+  },
+  {
+   "name": "p1v1",
+   "net": "1V1",
+   "title": "L1 output to RP2350 DVDD pins, 0.2 A",
+   "h": 0.1,
+   "source": [
+    "L1:2"
+   ],
+   "sinks": [
+    [
+     "U1:10",
+     0.07
+    ],
+    [
+     "U1:32",
+     0.07
+    ],
+    [
+     "U1:51",
+     0.06
+    ]
+   ]
+  },
+  {
+   "name": "gnd_return",
+   "net": "GND",
+   "title": "Ground return from RP2350, RM2, LDO and 3V3 pad load to USB-C GND pins",
+   "h": 0.15,
+   "source": [
+    "USB1:1",
+    "USB1:12"
+   ],
+   "sinks": [
+    [
+     "U1:81",
+     -0.15
+    ],
+    [
+     "U1:62",
+     -0.1
+    ],
+    [
+     "U5:15",
+     -0.35
+    ],
+    [
+     "U3:2",
+     -0.05
+    ],
+    [
+     "J4:62",
+     -0.3
+    ]
+   ]
+  }
+ ],
+ "decoupling": {
+  "max_mm": 5
+ },
+ "thermal": {
+  "ambient_C": 35,
+  "h_W_m2K": {
+   "low": 5,
+   "nominal": 7,
+   "high": 10
+  },
+  "corners": {
+   "typical": {
+    "title": "USB 5 V, RP2350 running, radio idle or not fitted, 3V3 pin unloaded: about 80 mA on 3V3"
+   },
+   "radio_tx": {
+    "title": "USB 5 V, RM2 transmitting continuously (271 mA, RM2 datasheet 1.2) plus MCU and flash: 0.40 A on 3V3 (README limits this to bursts)"
+   }
+  },
+  "sources": [
+   {
+    "ref": "U3",
+    "what": "ME6217 LDO",
+    "kind": "linear",
+    "V_in": 4.75,
+    "V_out": 3.3,
+    "I": {
+     "typical": 0.08,
+     "radio_tx": 0.4
+    },
+    "basis": "VSYS = 5.0 V - D1 VF (0.21 V @0.1 A, 0.31 V @1 A, DFLS130L datasheet)"
+   },
+   {
+    "ref": "D1",
+    "what": "VBUS OR-ing Schottky",
+    "kind": "fixed",
+    "P_W": {
+     "typical": 0.017,
+     "radio_tx": 0.1
+    },
+    "basis": "VF x I, DFLS130L VF 0.21 V @ 0.1 A, ~0.25 V @ 0.4 A"
+   },
+   {
+    "ref": "U5",
+    "what": "RM2 radio module (hand fitted)",
+    "kind": "fixed",
+    "P_W": {
+     "typical": 0.004,
+     "radio_tx": 0.85
+    },
+    "basis": "3.3 V x 271 mA Tx MCS7 @16 dBm minus ~40 mW radiated (RM2 datasheet 1.2); PM1 1.19 mA idle"
+   },
+   {
+    "ref": "U1",
+    "what": "RP2350B incl. core regulator",
+    "kind": "fixed",
+    "P_W": {
+     "typical": 0.1,
+     "radio_tx": 0.12
+    },
+    "basis": "estimate: ~30 mA core at 1.1 V via VREG plus IO; not measured"
+   },
+   {
+    "ref": "U4",
+    "kind": "negligible",
+    "why": "W25Q128 read current ~15 mA (0.05 W) at most"
+   },
+   {
+    "ref": "U6",
+    "kind": "negligible",
+    "why": "PSRAM DNP; when fitted a few mA average"
+   },
+   {
+    "ref": "L1",
+    "kind": "negligible",
+    "why": "core current ~30-70 mA through a 3.3 uH inductor, I^2 DCR in the mW range"
+   },
+   {
+    "ref": "D2",
+    "kind": "negligible",
+    "why": "ESD clamp, off in normal use"
+   },
+   {
+    "ref": "D3",
+    "kind": "negligible",
+    "why": "ESD clamp, off in normal use"
+   },
+   {
+    "ref": "D4",
+    "kind": "negligible",
+    "why": "VBUS TVS, off below 6.2 V (VBR min)"
+   },
+   {
+    "ref": "J4",
+    "kind": "negligible",
+    "why": "castellated pads, no load current through the board in these corners"
+   },
+   {
+    "ref": "USB1",
+    "kind": "negligible",
+    "why": "contact resistance x 0.4 A^2, a few mW"
+   },
+   {
+    "ref": "R7",
+    "kind": "negligible",
+    "why": "1 ohm ADC_AVDD filter, microamps"
+   }
+  ],
+  "parts": {}
+ }
+}

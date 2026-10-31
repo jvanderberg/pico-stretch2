@@ -97,7 +97,21 @@ Features:
 - Every castellated pad is labelled on the back too, with the same text as the front.
 - Jumpers: JP1 = PSRAM CS on GPIO0, JP4 = PSRAM CS on GPIO47, JP2 + JP3 = radio (see above).
 - Test pads: TP1 = 1V1, TP2 = 3V3, TP3 = USB D-, TP4 = USB D+ (on the connector side of the 33 Ω
-  resistors, labelled D- and D+).
+  resistors, labelled D- and D+), TP5 = GND (labelled G).
+- TP3, TP4 and TP5 sit exactly where the Pico / Pico 2 has its USB test points (its TP2 = D-, TP3 = D+,
+  TP1 = GND), with the same 1.5 x 1.5 mm pads, so a carrier made for the Pico SMT footprint reaches USB
+  through them.
+
+## Soldering onto a Pico footprint
+
+The first 20 castellated pads on each side, and the USB test pads above, line up with the Raspberry Pi Pico /
+Pico 2 SMT footprint (Pico 2 datasheet section 3.2), so the board can be hot-plate or reflow soldered onto a
+carrier designed for a Pico. The other 24 pads and the radio end overhang the Pico outline.
+
+- Nothing else on the back lands on that footprint's pads: its TP4-TP7 positions are bare board here, and its
+  four USB shell pads (A-D) meet only this board's USB-C shell legs (GND, as on the Pico) and its plastic
+  locating pegs, which stay inside the board.
+- Leave the SWD header (J2) unfitted, or cut it flush: its pins would stop the board sitting flat.
 
 ## Production files for JLCPCB
 

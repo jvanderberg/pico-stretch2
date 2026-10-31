@@ -6,13 +6,18 @@ to a copy of the project. Review-1 m4 (VBUS TVS D4) was tried and removed by dec
 
 Always rebuilds from the base copy; never patch the output. Uses kicad-skills' kicad_sexpr layer.
 """
+import glob
 import math
 import os
 import shutil
 import sys
 
-sys.path.insert(0, os.path.expanduser(
-    '~/.claude/plugins/cache/kicad-skills/kicad-skills/0.1.0/skills/kicad-pcb-workflow/scripts'))
+def _version(path):  # .../kicad-skills/<version>/skills/kicad-pcb-workflow/scripts
+    return tuple(int(x) if x.isdigit() else 0 for x in path.split(os.sep)[-4].split('.'))
+
+
+sys.path.insert(0, max(glob.glob(os.path.expanduser(
+    '~/.claude/plugins/cache/kicad-skills/kicad-skills/*/skills/kicad-pcb-workflow/scripts')), key=_version))
 from kicad_sexpr import Board, Node, Schematic, load, save  # noqa: E402
 from kicad_sexpr.sexp import Sym  # noqa: E402
 

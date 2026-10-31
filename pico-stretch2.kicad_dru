@@ -4,3 +4,7 @@
     (constraint courtyard_clearance (min 0mm))
     (severity ignore)
 )
+(rule "via to plated hole (JLC POFV 0.45 mm)"
+    (condition "A.Type == 'Via' && B.Type == 'Pad'")
+    (constraint hole_to_hole (min 0.45mm))
+)

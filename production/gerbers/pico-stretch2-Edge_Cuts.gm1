@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.1*%
+%TF.CreationDate,2026-10-31T10:48:15-05:00*%
+%TF.ProjectId,pico-stretch2,7069636f-2d73-4747-9265-746368322e6b,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.1) date 2026-10-31 10:48:15*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.254000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X109145000Y-90990000D02*
+X191285000Y-90990000D01*
+X191285000Y-111990000D01*
+X109145000Y-111990000D01*
+X109145000Y-90990000D01*
+M02*

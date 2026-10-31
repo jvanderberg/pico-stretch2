@@ -1,0 +1,4694 @@
+{
+ "components": {
+  "Boot1": {
+   "ref": "Boot1",
+   "value": "K2-1808SN-A4SW",
+   "fp": "K2-1808SN-A4SW",
+   "lcsc": "C92589",
+   "mpn": "K2-1808SN-A4SW-01",
+   "desc": "-25\u2103~+85\u2103 100,000 cycles 12V 2.5N 2.5mm 3.25mm 4.2mm 50mA Oval Button ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131530_Korean-Hroparts-Elec-K2-1808SN-A4SW-01_C92589.pdf",
+   "pins": {
+    "3": [
+     "GND",
+     "3_3",
+     "unspecified"
+    ],
+    "4": [
+     "GND",
+     "4_4",
+     "unspecified"
+    ],
+    "1": [
+     "Net-(Boot1-Pad1)",
+     "1_1",
+     "unspecified"
+    ],
+    "2": [
+     "Net-(Boot1-Pad1)",
+     "2_2",
+     "unspecified"
+    ]
+   }
+  },
+  "C1": {
+   "ref": "C1",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "input"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "input"
+    ]
+   }
+  },
+  "C2": {
+   "ref": "C2",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "1": [
+     "1V1",
+     "1_1",
+     "input"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "input"
+    ]
+   }
+  },
+  "C3": {
+   "ref": "C3",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "input"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "input"
+    ]
+   }
+  },
+  "C4": {
+   "ref": "C4",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "input"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "input"
+    ]
+   }
+  },
+  "C5": {
+   "ref": "C5",
+   "value": "4.7uF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C23733",
+   "mpn": "CL05A475MP5NRNC",
+   "desc": "10V 4.7uF X5R \u00b120% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf",
+   "pins": {
+    "1": [
+     "1V1",
+     "1_1",
+     "unspecified"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "unspecified"
+    ]
+   }
+  },
+  "C6": {
+   "ref": "C6",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "input"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "input"
+    ]
+   }
+  },
+  "C7": {
+   "ref": "C7",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "input"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "input"
+    ]
+   }
+  },
+  "C8": {
+   "ref": "C8",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "2": [
+     "3V3",
+     "2_2",
+     "input"
+    ],
+    "1": [
+     "GND",
+     "1_1",
+     "input"
+    ]
+   }
+  },
+  "C9": {
+   "ref": "C9",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "2": [
+     "3V3",
+     "2_2",
+     "input"
+    ],
+    "1": [
+     "GND",
+     "1_1",
+     "input"
+    ]
+   }
+  },
+  "C10": {
+   "ref": "C10",
+   "value": "4.7uF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C23733",
+   "mpn": "CL05A475MP5NRNC",
+   "desc": "10V 4.7uF X5R \u00b120% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf",
+   "pins": {
+    "1": [
+     "1V1",
+     "1_1",
+     "unspecified"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "unspecified"
+    ]
+   }
+  },
+  "C11": {
+   "ref": "C11",
+   "value": "4.7uF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C23733",
+   "mpn": "CL05A475MP5NRNC",
+   "desc": "10V 4.7uF X5R \u00b120% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf",
+   "pins": {
+    "2": [
+     "GND",
+     "2_2",
+     "unspecified"
+    ],
+    "1": [
+     "Net-(U1-VREG_AVDD)",
+     "1_1",
+     "unspecified"
+    ]
+   }
+  },
+  "C12": {
+   "ref": "C12",
+   "value": "4.7uF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C23733",
+   "mpn": "CL05A475MP5NRNC",
+   "desc": "10V 4.7uF X5R \u00b120% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "unspecified"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "unspecified"
+    ]
+   }
+  },
+  "C13": {
+   "ref": "C13",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "2": [
+     "1V1",
+     "2_2",
+     "input"
+    ],
+    "1": [
+     "GND",
+     "1_1",
+     "input"
+    ]
+   }
+  },
+  "C15": {
+   "ref": "C15",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "1": [
+     "GND",
+     "1_1",
+     "input"
+    ],
+    "2": [
+     "RUN",
+     "2_2",
+     "input"
+    ]
+   }
+  },
+  "C16": {
+   "ref": "C16",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "input"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "input"
+    ]
+   }
+  },
+  "C17": {
+   "ref": "C17",
+   "value": "15pF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1548",
+   "mpn": "0402CG150J500NT",
+   "desc": "Capacitance: Tolerance:\u00b15% Tolerance:\u00b15% Voltage Rated: Temperature Co",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_15pF-150-5-50V_C1548.html",
+   "pins": {
+    "2": [
+     "GND",
+     "2_2",
+     "input"
+    ],
+    "1": [
+     "Net-(C17-Pad1)",
+     "1_1",
+     "input"
+    ]
+   }
+  },
+  "C18": {
+   "ref": "C18",
+   "value": "15pF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1548",
+   "mpn": "0402CG150J500NT",
+   "desc": "Capacitance: Tolerance:\u00b15% Tolerance:\u00b15% Voltage Rated: Temperature Co",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_15pF-150-5-50V_C1548.html",
+   "pins": {
+    "1": [
+     "GND",
+     "1_1",
+     "input"
+    ],
+    "2": [
+     "Net-(U1-XIN)",
+     "2_2",
+     "input"
+    ]
+   }
+  },
+  "C19": {
+   "ref": "C19",
+   "value": "4.7uF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C23733",
+   "mpn": "",
+   "desc": "10V 4.7uF X5R \u00b120% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf",
+   "pins": {
+    "2": [
+     "GND",
+     "",
+     "passive"
+    ],
+    "1": [
+     "Net-(U1-ADC_AVDD)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "C21": {
+   "ref": "C21",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "",
+   "desc": "16V 100nF X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "",
+     "passive"
+    ],
+    "2": [
+     "GND",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "C22": {
+   "ref": "C22",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "",
+   "desc": "16V 100nF X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "",
+     "passive"
+    ],
+    "2": [
+     "GND",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "C23": {
+   "ref": "C23",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "",
+   "desc": "16V 100nF X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "",
+     "passive"
+    ],
+    "2": [
+     "GND",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "C24": {
+   "ref": "C24",
+   "value": "CL10A475KO8NNNC",
+   "fp": "C_0603_1608Metric",
+   "lcsc": "C19666",
+   "mpn": "CL10A475KO8NNNC",
+   "desc": "16V 4.7uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf",
+   "pins": {
+    "2": [
+     "3V3",
+     "2_2",
+     "unspecified"
+    ],
+    "1": [
+     "GND",
+     "1_1",
+     "unspecified"
+    ]
+   }
+  },
+  "C36": {
+   "ref": "C36",
+   "value": "100nF",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "Capacitance: Tolerance:\u00b110% Tolerance:\u00b110% Voltage Rated: Temperature ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf",
+   "pins": {
+    "2": [
+     "3V3",
+     "2_2",
+     "input"
+    ],
+    "1": [
+     "GND",
+     "1_1",
+     "input"
+    ]
+   }
+  },
+  "C37": {
+   "ref": "C37",
+   "value": "10uF",
+   "fp": "C_0603_1608Metric",
+   "lcsc": "C19702",
+   "mpn": "",
+   "desc": "10V 10uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RO",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf",
+   "pins": {
+    "2": [
+     "GND",
+     "",
+     "passive"
+    ],
+    "1": [
+     "VSYS",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "C38": {
+   "ref": "C38",
+   "value": "CL05B104KO5NNNC",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "100nF 16V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "unspecified"
+    ],
+    "2": [
+     "GND",
+     "2_2",
+     "unspecified"
+    ]
+   }
+  },
+  "C39": {
+   "ref": "C39",
+   "value": "CL05B104KO5NNNC",
+   "fp": "C_0402_1005Metric",
+   "lcsc": "C1525",
+   "mpn": "CL05B104KO5NNNC",
+   "desc": "100nF 16V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf",
+   "pins": {
+    "2": [
+     "GND",
+     "2_2",
+     "unspecified"
+    ],
+    "1": [
+     "VSYS",
+     "1_1",
+     "unspecified"
+    ]
+   }
+  },
+  "C40": {
+   "ref": "C40",
+   "value": "10uF",
+   "fp": "C_0603_1608Metric",
+   "lcsc": "C19702",
+   "mpn": "",
+   "desc": "10V 10uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RO",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf",
+   "pins": {
+    "2": [
+     "3V3",
+     "2_2",
+     "input"
+    ],
+    "1": [
+     "GND",
+     "1_1",
+     "input"
+    ]
+   }
+  },
+  "D1": {
+   "ref": "D1",
+   "value": "DFLS130L-7",
+   "fp": "D_PowerDI-123",
+   "lcsc": "C110493",
+   "mpn": "DFLS130L-7",
+   "desc": "-40\u2103~+125\u2103 1 Independent 1A 1mA@30V 30V 310mV@1A 50A PowerDI-123 Schot",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809081812_Diodes-Incorporated-DFLS130L-7_C110493.pdf",
+   "pins": {
+    "2": [
+     "VBUS",
+     "2_2",
+     "unspecified"
+    ],
+    "1": [
+     "VSYS",
+     "1_1",
+     "unspecified"
+    ]
+   }
+  },
+  "D2": {
+   "ref": "D2",
+   "value": "RCLAMP0521P_TCT_C3029033",
+   "fp": "RCLAMP0521P_TCT_C3029033",
+   "lcsc": "C3029033",
+   "mpn": "RCLAMP0521P.TCT-MS",
+   "desc": "0.25pF 100W@8/20us 100nA 25V 4A 5V 6V Bidirectional IEC 61000-4-2\u3001IEC ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210272130_MSKSEMI-RCLAMP0521P-TCT-MS_C3029033.pdf",
+   "pins": {
+    "1": [
+     "GND",
+     "",
+     "unspecified"
+    ],
+    "2": [
+     "USB2_D-",
+     "",
+     "unspecified"
+    ]
+   }
+  },
+  "D3": {
+   "ref": "D3",
+   "value": "RCLAMP0521P_TCT_C3029033",
+   "fp": "RCLAMP0521P_TCT_C3029033",
+   "lcsc": "C3029033",
+   "mpn": "RCLAMP0521P.TCT-MS",
+   "desc": "0.25pF 100W@8/20us 100nA 25V 4A 5V 6V Bidirectional IEC 61000-4-2\u3001IEC ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210272130_MSKSEMI-RCLAMP0521P-TCT-MS_C3029033.pdf",
+   "pins": {
+    "1": [
+     "GND",
+     "",
+     "unspecified"
+    ],
+    "2": [
+     "USB2_D+",
+     "",
+     "unspecified"
+    ]
+   }
+  },
+  "J2": {
+   "ref": "J2",
+   "value": "Conn_01x03_Pin",
+   "fp": "PinHeader_1x03_P2.54mm_Vertical",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "Generic connector, single row, 01x03, script generated",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "",
+   "pins": {
+    "2": [
+     "GND",
+     "Pin_2_2",
+     "passive"
+    ],
+    "1": [
+     "SWCLK",
+     "Pin_1_1",
+     "passive"
+    ],
+    "3": [
+     "SWDIO",
+     "Pin_3_3",
+     "passive"
+    ]
+   }
+  },
+  "J4": {
+   "ref": "J4",
+   "value": "Conn_01x64_Castellated_Pads",
+   "fp": "Castellated_Pad_64",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "Generic connectable mounting pin connector, single row, 01x32, script ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "",
+   "pins": {
+    "60": [
+     "3V3",
+     "Pin_60_60",
+     "passive"
+    ],
+    "61": [
+     "3V3_EN",
+     "Pin_61_61",
+     "passive"
+    ],
+    "59": [
+     "ADC_VREF",
+     "Pin_59_59",
+     "passive"
+    ],
+    "13": [
+     "GND",
+     "Pin_13_13",
+     "passive"
+    ],
+    "18": [
+     "GND",
+     "Pin_18_18",
+     "passive"
+    ],
+    "3": [
+     "GND",
+     "Pin_3_3",
+     "passive"
+    ],
+    "31": [
+     "GND",
+     "Pin_31_31",
+     "passive"
+    ],
+    "34": [
+     "GND",
+     "Pin_34_34",
+     "passive"
+    ],
+    "47": [
+     "GND",
+     "Pin_47_47",
+     "passive"
+    ],
+    "52": [
+     "GND",
+     "Pin_52_52",
+     "passive"
+    ],
+    "57": [
+     "GND",
+     "Pin_57_57",
+     "passive"
+    ],
+    "62": [
+     "GND",
+     "Pin_62_62",
+     "passive"
+    ],
+    "8": [
+     "GND",
+     "Pin_8_8",
+     "passive"
+    ],
+    "1": [
+     "GPIO0",
+     "Pin_1_1",
+     "passive"
+    ],
+    "2": [
+     "GPIO1",
+     "Pin_2_2",
+     "passive"
+    ],
+    "4": [
+     "GPIO2",
+     "Pin_4_4",
+     "passive"
+    ],
+    "5": [
+     "GPIO3",
+     "Pin_5_5",
+     "passive"
+    ],
+    "6": [
+     "GPIO4",
+     "Pin_6_6",
+     "passive"
+    ],
+    "7": [
+     "GPIO5",
+     "Pin_7_7",
+     "passive"
+    ],
+    "9": [
+     "GPIO6",
+     "Pin_9_9",
+     "passive"
+    ],
+    "10": [
+     "GPIO7",
+     "Pin_10_10",
+     "passive"
+    ],
+    "11": [
+     "GPIO8",
+     "Pin_11_11",
+     "passive"
+    ],
+    "12": [
+     "GPIO9",
+     "Pin_12_12",
+     "passive"
+    ],
+    "14": [
+     "GPIO10",
+     "Pin_14_14",
+     "passive"
+    ],
+    "15": [
+     "GPIO11",
+     "Pin_15_15",
+     "passive"
+    ],
+    "16": [
+     "GPIO12",
+     "Pin_16_16",
+     "passive"
+    ],
+    "17": [
+     "GPIO13",
+     "Pin_17_17",
+     "passive"
+    ],
+    "19": [
+     "GPIO14",
+     "Pin_19_19",
+     "passive"
+    ],
+    "20": [
+     "GPIO15",
+     "Pin_20_20",
+     "passive"
+    ],
+    "45": [
+     "GPIO16",
+     "Pin_45_45",
+     "passive"
+    ],
+    "46": [
+     "GPIO17",
+     "Pin_46_46",
+     "passive"
+    ],
+    "48": [
+     "GPIO18",
+     "Pin_48_48",
+     "passive"
+    ],
+    "49": [
+     "GPIO19",
+     "Pin_49_49",
+     "passive"
+    ],
+    "50": [
+     "GPIO20",
+     "Pin_50_50",
+     "passive"
+    ],
+    "51": [
+     "GPIO21",
+     "Pin_61_51",
+     "passive"
+    ],
+    "53": [
+     "GPIO22",
+     "Pin_53_53",
+     "passive"
+    ],
+    "21": [
+     "GPIO23",
+     "Pin_21_21",
+     "passive"
+    ],
+    "22": [
+     "GPIO24",
+     "Pin_22_22",
+     "passive"
+    ],
+    "23": [
+     "GPIO25",
+     "Pin_23_23",
+     "passive"
+    ],
+    "55": [
+     "GPIO26",
+     "Pin_55_55",
+     "passive"
+    ],
+    "56": [
+     "GPIO27",
+     "Pin_56_56",
+     "passive"
+    ],
+    "58": [
+     "GPIO28",
+     "Pin_58_58",
+     "passive"
+    ],
+    "24": [
+     "GPIO29",
+     "Pin_24_24",
+     "passive"
+    ],
+    "25": [
+     "GPIO30",
+     "Pin_25_25",
+     "passive"
+    ],
+    "26": [
+     "GPIO31",
+     "Pin_26_26",
+     "passive"
+    ],
+    "27": [
+     "GPIO32",
+     "Pin_27_27",
+     "passive"
+    ],
+    "28": [
+     "GPIO33",
+     "Pin_28_28",
+     "passive"
+    ],
+    "29": [
+     "GPIO34",
+     "Pin_29_29",
+     "passive"
+    ],
+    "30": [
+     "GPIO35",
+     "Pin_30_30",
+     "passive"
+    ],
+    "32": [
+     "GPIO36",
+     "Pin_32_32",
+     "passive"
+    ],
+    "33": [
+     "GPIO37",
+     "Pin_33_33",
+     "passive"
+    ],
+    "35": [
+     "GPIO38",
+     "Pin_35_35",
+     "passive"
+    ],
+    "36": [
+     "GPIO39",
+     "Pin_36_36",
+     "passive"
+    ],
+    "37": [
+     "GPIO40/ADC0",
+     "Pin_37_37",
+     "passive"
+    ],
+    "38": [
+     "GPIO41/ADC1",
+     "Pin_38_38",
+     "passive"
+    ],
+    "39": [
+     "GPIO42/ADC2",
+     "Pin_39_39",
+     "passive"
+    ],
+    "40": [
+     "GPIO43/ADC3",
+     "Pin_40_40",
+     "passive"
+    ],
+    "41": [
+     "GPIO44/ADC4",
+     "Pin_41_41",
+     "passive"
+    ],
+    "42": [
+     "GPIO45/ADC5",
+     "Pin_42_42",
+     "passive"
+    ],
+    "43": [
+     "GPIO46/ADC6",
+     "Pin_43_43",
+     "passive"
+    ],
+    "44": [
+     "GPIO47/ADC7",
+     "Pin_44_44",
+     "passive"
+    ],
+    "54": [
+     "RUN",
+     "Pin_54_54",
+     "passive"
+    ],
+    "64": [
+     "VBUS",
+     "Pin_64_64",
+     "passive"
+    ],
+    "63": [
+     "VSYS",
+     "Pin_63_63",
+     "passive"
+    ]
+   }
+  },
+  "JP1": {
+   "ref": "JP1",
+   "value": "SolderJumper_2_Open",
+   "fp": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "Solder Jumper, 2-pole, open",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": false,
+   "datasheet": "",
+   "pins": {
+    "2": [
+     "GPIO0",
+     "B_2",
+     "passive"
+    ],
+    "1": [
+     "Net-(JP1-A)",
+     "A_1",
+     "passive"
+    ]
+   }
+  },
+  "JP2": {
+   "ref": "JP2",
+   "value": "SolderJumper_2_Open",
+   "fp": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "Solder Jumper, 2-pole, open",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": false,
+   "datasheet": "",
+   "pins": {
+    "2": [
+     "GPIO25",
+     "B_2",
+     "passive"
+    ],
+    "1": [
+     "Net-(JP2-A)",
+     "A_1",
+     "passive"
+    ]
+   }
+  },
+  "JP3": {
+   "ref": "JP3",
+   "value": "SolderJumper_2_Open",
+   "fp": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "Solder Jumper, 2-pole, open",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": false,
+   "datasheet": "",
+   "pins": {
+    "1": [
+     "GPIO23",
+     "A_1",
+     "passive"
+    ],
+    "2": [
+     "Net-(JP3-B)",
+     "B_2",
+     "passive"
+    ]
+   }
+  },
+  "JP4": {
+   "ref": "JP4",
+   "value": "SolderJumper_2_Open",
+   "fp": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "Solder Jumper, 2-pole, open",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": false,
+   "datasheet": "~",
+   "pins": {
+    "2": [
+     "GPIO47/ADC7",
+     "B_2",
+     "passive"
+    ],
+    "1": [
+     "Net-(JP1-A)",
+     "A_1",
+     "passive"
+    ]
+   }
+  },
+  "L1": {
+   "ref": "L1",
+   "value": "AOTA-B201610S3R3-101-T",
+   "fp": "AOTA-B201610S3R3-101-T",
+   "lcsc": "C42411119",
+   "mpn": "AOTA-B201610S3R3-101-T",
+   "desc": "0806 Power Inductors ROHS",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2412101620_Abracon-LLC-AOTA-B201610S3R3-101-T_C42411119.pdf",
+   "pins": {
+    "1": [
+     "/VREG_LX",
+     "1_1",
+     "unspecified"
+    ],
+    "2": [
+     "1V1",
+     "2_2",
+     "unspecified"
+    ]
+   }
+  },
+  "PWR_LED1": {
+   "ref": "PWR_LED1",
+   "value": "KT-0603R",
+   "fp": "KT-0603R",
+   "lcsc": "C2286",
+   "mpn": "KT-0603R",
+   "desc": "-40\u2103~+85\u2103 1.8V~2.4V 120\u00b0 20mA 300mcd 40mW 615nm~630nm 645nm Discrete D",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf",
+   "pins": {
+    "2": [
+     "3V3",
+     "A_2",
+     "unspecified"
+    ],
+    "1": [
+     "Net-(PWR_LED1-K)",
+     "K_1",
+     "unspecified"
+    ]
+   }
+  },
+  "R1": {
+   "ref": "R1",
+   "value": "5.1k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25905",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 5.1k\u03a9 0402 Chip Resisto",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf",
+   "pins": {
+    "1": [
+     "GND",
+     "",
+     "passive"
+    ],
+    "2": [
+     "Net-(USB1-CC1)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R2": {
+   "ref": "R2",
+   "value": "33\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25105",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 33\u03a9 0402 Chip Resistor ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf",
+   "pins": {
+    "2": [
+     "USB2_D-",
+     "",
+     "passive"
+    ],
+    "1": [
+     "USB_D-",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R3": {
+   "ref": "R3",
+   "value": "33\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25105",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 33\u03a9 0402 Chip Resistor ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf",
+   "pins": {
+    "2": [
+     "USB2_D+",
+     "",
+     "passive"
+    ],
+    "1": [
+     "USB_D+",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R4": {
+   "ref": "R4",
+   "value": "5.1k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25905",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 5.1k\u03a9 0402 Chip Resisto",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf",
+   "pins": {
+    "1": [
+     "GND",
+     "",
+     "passive"
+    ],
+    "2": [
+     "Net-(USB1-CC2)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R5": {
+   "ref": "R5",
+   "value": "1k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C11702",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 1k\u03a9 0402 Chip Resistor ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf",
+   "pins": {
+    "1": [
+     "Net-(Boot1-Pad1)",
+     "",
+     "passive"
+    ],
+    "2": [
+     "Net-(U1-QSPI_SS)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R6": {
+   "ref": "R6",
+   "value": "33\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25105",
+   "mpn": "0402WGF330JTCE",
+   "desc": "Type:Thick Film Resistors Resistance:33\u03a9 Tolerance:\u00b11% Tolerance:\u00b11% P",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "unspecified"
+    ],
+    "2": [
+     "Net-(U1-VREG_AVDD)",
+     "2_2",
+     "unspecified"
+    ]
+   }
+  },
+  "R7": {
+   "ref": "R7",
+   "value": "1\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25086",
+   "mpn": "0402WGF100KTCE",
+   "desc": "-55\u2103~+155\u2103 1\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1200ppm/\u2103 0402 Chip R",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF100KTCE_C25086.pdf",
+   "pins": {
+    "2": [
+     "ADC_VREF",
+     "",
+     "input"
+    ],
+    "1": [
+     "Net-(U1-ADC_AVDD)",
+     "",
+     "input"
+    ]
+   }
+  },
+  "R8": {
+   "ref": "R8",
+   "value": "200\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25087",
+   "mpn": "0402WGF2000TCE",
+   "desc": "-55\u2103~+155\u2103 200\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2000TCE_C25087.pdf",
+   "pins": {
+    "2": [
+     "3V3",
+     "",
+     "input"
+    ],
+    "1": [
+     "ADC_VREF",
+     "",
+     "input"
+    ]
+   }
+  },
+  "R9": {
+   "ref": "R9",
+   "value": "10k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25744",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 10k\u03a9 0402 Chip Resistor",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf",
+   "pins": {
+    "2": [
+     "GND",
+     "",
+     "passive"
+    ],
+    "1": [
+     "Net-(JP2-A)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R10": {
+   "ref": "R10",
+   "value": "10k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25744",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 10k\u03a9 0402 Chip Resistor",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf",
+   "pins": {
+    "2": [
+     "GND",
+     "",
+     "passive"
+    ],
+    "1": [
+     "Net-(JP3-B)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R11": {
+   "ref": "R11",
+   "value": "100k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25741",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 100k\u03a9 0402 Chip Resisto",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf",
+   "pins": {
+    "2": [
+     "3V3_EN",
+     "",
+     "passive"
+    ],
+    "1": [
+     "VSYS",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R12": {
+   "ref": "R12",
+   "value": "2k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C4109",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 2k\u03a9 0402 Chip Resistor ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0402WGF2001TCE_C4109.pdf",
+   "pins": {
+    "2": [
+     "GND",
+     "",
+     "passive"
+    ],
+    "1": [
+     "Net-(PWR_LED1-K)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R14": {
+   "ref": "R14",
+   "value": "1k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C11702",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 1k\u03a9 0402 Chip Resistor ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf",
+   "pins": {
+    "2": [
+     "3V3",
+     "",
+     "passive"
+    ],
+    "1": [
+     "Net-(JP1-A)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R15": {
+   "ref": "R15",
+   "value": "470\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25117",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 470\u03a9 0402 Chip Resistor",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf",
+   "pins": {
+    "2": [
+     "GPIO24",
+     "",
+     "passive"
+    ],
+    "1": [
+     "Net-(U5-DO)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R16": {
+   "ref": "R16",
+   "value": "10k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C25744",
+   "mpn": "",
+   "desc": "62.5mW Thick Film Resistors 50V \u00b1100ppm/\u00b0C \u00b11% 10k\u03a9 0402 Chip Resistor",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf",
+   "pins": {
+    "1": [
+     "GPIO24",
+     "",
+     "passive"
+    ],
+    "2": [
+     "Net-(U5-nIRQ)",
+     "",
+     "passive"
+    ]
+   }
+  },
+  "R28": {
+   "ref": "R28",
+   "value": "1k\u03a9",
+   "fp": "R_0402_1005Metric",
+   "lcsc": "C11702",
+   "mpn": "0402WGF1001TCE",
+   "desc": "-55\u2103~+155\u2103 1k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf",
+   "pins": {
+    "1": [
+     "Net-(C17-Pad1)",
+     "",
+     "input"
+    ],
+    "2": [
+     "Net-(U1-XOUT)",
+     "",
+     "input"
+    ]
+   }
+  },
+  "Reset1": {
+   "ref": "Reset1",
+   "value": "K2-1808SN-A4SW",
+   "fp": "K2-1808SN-A4SW",
+   "lcsc": "C92589",
+   "mpn": "K2-1808SN-A4SW-01",
+   "desc": "-25\u2103~+85\u2103 100,000 cycles 12V 2.5N 2.5mm 3.25mm 4.2mm 50mA Oval Button ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131530_Korean-Hroparts-Elec-K2-1808SN-A4SW-01_C92589.pdf",
+   "pins": {
+    "3": [
+     "GND",
+     "3_3",
+     "unspecified"
+    ],
+    "4": [
+     "GND",
+     "4_4",
+     "unspecified"
+    ],
+    "2": [
+     "RUN",
+     "2_2",
+     "unspecified"
+    ],
+    "1": [
+     "unconnected-(Reset1-Pad1)",
+     "1_1",
+     "unspecified+no_connect"
+    ]
+   }
+  },
+  "TP1": {
+   "ref": "TP1",
+   "value": "TestPoint",
+   "fp": "TestPoint_Pad_1.0x1.0mm",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "test point",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "",
+   "pins": {
+    "1": [
+     "1V1",
+     "1_1",
+     "passive"
+    ]
+   }
+  },
+  "TP2": {
+   "ref": "TP2",
+   "value": "TestPoint",
+   "fp": "TestPoint_Pad_1.0x1.0mm",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "test point",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "",
+   "pins": {
+    "1": [
+     "3V3",
+     "1_1",
+     "passive"
+    ]
+   }
+  },
+  "TP3": {
+   "ref": "TP3",
+   "value": "TestPoint",
+   "fp": "TestPoint_Pad_1.0x1.0mm",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "test point",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "",
+   "pins": {
+    "1": [
+     "USB2_D-",
+     "1_1",
+     "passive"
+    ]
+   }
+  },
+  "TP4": {
+   "ref": "TP4",
+   "value": "TestPoint",
+   "fp": "TestPoint_Pad_1.0x1.0mm",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "test point",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "",
+   "pins": {
+    "1": [
+     "USB2_D+",
+     "1_1",
+     "passive"
+    ]
+   }
+  },
+  "U1": {
+   "ref": "U1",
+   "value": "RP2350B_C42415655",
+   "fp": "RP2350B_C42415655",
+   "lcsc": "C42415655",
+   "mpn": "RP2350B",
+   "desc": "Power-on reset (POR)\u3001Watchdog reset\u3001External pin reset (NRST)\u3001Built-in",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2412171426_Raspberry-Pi-RP2350B_C42415655.pdf",
+   "pins": {
+    "63": [
+     "/VREG_LX",
+     "VREG_LX_63",
+     "unspecified"
+    ],
+    "10": [
+     "1V1",
+     "DVDD_10",
+     "unspecified"
+    ],
+    "32": [
+     "1V1",
+     "DVDD_32",
+     "unspecified"
+    ],
+    "51": [
+     "1V1",
+     "DVDD_51",
+     "unspecified"
+    ],
+    "65": [
+     "1V1",
+     "VREG_FB_65",
+     "unspecified"
+    ],
+    "15": [
+     "3V3",
+     "IOVDD_15",
+     "unspecified"
+    ],
+    "24": [
+     "3V3",
+     "IOVDD_24",
+     "unspecified"
+    ],
+    "29": [
+     "3V3",
+     "IOVDD_29",
+     "unspecified"
+    ],
+    "41": [
+     "3V3",
+     "IOVDD_41",
+     "unspecified"
+    ],
+    "5": [
+     "3V3",
+     "IOVDD_5",
+     "unspecified"
+    ],
+    "50": [
+     "3V3",
+     "IOVDD_50",
+     "unspecified"
+    ],
+    "60": [
+     "3V3",
+     "IOVDD_60",
+     "unspecified"
+    ],
+    "64": [
+     "3V3",
+     "VREG_VIN_64",
+     "unspecified"
+    ],
+    "68": [
+     "3V3",
+     "USB_OTP_VDD_68",
+     "unspecified"
+    ],
+    "69": [
+     "3V3",
+     "QSPI_IOVDD_69",
+     "unspecified"
+    ],
+    "76": [
+     "3V3",
+     "IOVDD_76",
+     "unspecified"
+    ],
+    "62": [
+     "GND",
+     "VREG_PGND_62",
+     "unspecified"
+    ],
+    "81": [
+     "GND",
+     "GND_81",
+     "unspecified"
+    ],
+    "77": [
+     "GPIO0",
+     "GPIO0_77",
+     "unspecified"
+    ],
+    "78": [
+     "GPIO1",
+     "GPIO1_78",
+     "unspecified"
+    ],
+    "79": [
+     "GPIO2",
+     "GPIO2_79",
+     "unspecified"
+    ],
+    "80": [
+     "GPIO3",
+     "GPIO3_80",
+     "unspecified"
+    ],
+    "1": [
+     "GPIO4",
+     "GPIO4_1",
+     "unspecified"
+    ],
+    "2": [
+     "GPIO5",
+     "GPIO5_2",
+     "unspecified"
+    ],
+    "3": [
+     "GPIO6",
+     "GPIO6_3",
+     "unspecified"
+    ],
+    "4": [
+     "GPIO7",
+     "GPIO7_4",
+     "unspecified"
+    ],
+    "6": [
+     "GPIO8",
+     "GPIO8_6",
+     "unspecified"
+    ],
+    "7": [
+     "GPIO9",
+     "GPIO9_7",
+     "unspecified"
+    ],
+    "8": [
+     "GPIO10",
+     "GPIO10_8",
+     "unspecified"
+    ],
+    "9": [
+     "GPIO11",
+     "GPIO11_9",
+     "unspecified"
+    ],
+    "11": [
+     "GPIO12",
+     "GPIO12_11",
+     "unspecified"
+    ],
+    "12": [
+     "GPIO13",
+     "GPIO13_12",
+     "unspecified"
+    ],
+    "13": [
+     "GPIO14",
+     "GPIO14_13",
+     "unspecified"
+    ],
+    "14": [
+     "GPIO15",
+     "GPIO15_14",
+     "unspecified"
+    ],
+    "16": [
+     "GPIO16",
+     "GPIO16_16",
+     "unspecified"
+    ],
+    "17": [
+     "GPIO17",
+     "GPIO17_17",
+     "unspecified"
+    ],
+    "18": [
+     "GPIO18",
+     "GPIO18_18",
+     "unspecified"
+    ],
+    "19": [
+     "GPIO19",
+     "GPIO19_19",
+     "unspecified"
+    ],
+    "20": [
+     "GPIO20",
+     "GPIO20_20",
+     "unspecified"
+    ],
+    "21": [
+     "GPIO21",
+     "GPIO21_21",
+     "unspecified"
+    ],
+    "22": [
+     "GPIO22",
+     "GPIO22_22",
+     "unspecified"
+    ],
+    "23": [
+     "GPIO23",
+     "GPIO23_23",
+     "unspecified"
+    ],
+    "25": [
+     "GPIO24",
+     "GPIO24_25",
+     "unspecified"
+    ],
+    "26": [
+     "GPIO25",
+     "GPIO25_26",
+     "unspecified"
+    ],
+    "27": [
+     "GPIO26",
+     "GPIO26_27",
+     "unspecified"
+    ],
+    "28": [
+     "GPIO27",
+     "GPIO27_28",
+     "unspecified"
+    ],
+    "36": [
+     "GPIO28",
+     "GPIO28_36",
+     "unspecified"
+    ],
+    "37": [
+     "GPIO29",
+     "GPIO29_37",
+     "unspecified"
+    ],
+    "38": [
+     "GPIO30",
+     "GPIO30_38",
+     "unspecified"
+    ],
+    "39": [
+     "GPIO31",
+     "GPIO31_39",
+     "unspecified"
+    ],
+    "40": [
+     "GPIO32",
+     "GPIO32_40",
+     "unspecified"
+    ],
+    "42": [
+     "GPIO33",
+     "GPIO33_42",
+     "unspecified"
+    ],
+    "43": [
+     "GPIO34",
+     "GPIO34_43",
+     "unspecified"
+    ],
+    "44": [
+     "GPIO35",
+     "GPIO35_44",
+     "unspecified"
+    ],
+    "45": [
+     "GPIO36",
+     "GPIO36_45",
+     "unspecified"
+    ],
+    "46": [
+     "GPIO37",
+     "GPIO37_46",
+     "unspecified"
+    ],
+    "47": [
+     "GPIO38",
+     "GPIO38_47",
+     "unspecified"
+    ],
+    "48": [
+     "GPIO39",
+     "GPIO39_48",
+     "unspecified"
+    ],
+    "49": [
+     "GPIO40/ADC0",
+     "GPIO40_ADC0_49",
+     "unspecified"
+    ],
+    "52": [
+     "GPIO41/ADC1",
+     "GPIO41_ADC1_52",
+     "unspecified"
+    ],
+    "53": [
+     "GPIO42/ADC2",
+     "GPIO42_ADC2_53",
+     "unspecified"
+    ],
+    "54": [
+     "GPIO43/ADC3",
+     "GPIO43_ADC3_54",
+     "unspecified"
+    ],
+    "55": [
+     "GPIO44/ADC4",
+     "GPIO44_ADC4_55",
+     "unspecified"
+    ],
+    "56": [
+     "GPIO45/ADC5",
+     "GPIO45_ADC5_56",
+     "unspecified"
+    ],
+    "57": [
+     "GPIO46/ADC6",
+     "GPIO46_ADC6_57",
+     "unspecified"
+    ],
+    "58": [
+     "GPIO47/ADC7",
+     "GPIO47_ADC7_58",
+     "unspecified"
+    ],
+    "59": [
+     "Net-(U1-ADC_AVDD)",
+     "ADC_AVDD_59",
+     "unspecified"
+    ],
+    "75": [
+     "Net-(U1-QSPI_SS)",
+     "QSPI_SS_75",
+     "unspecified"
+    ],
+    "61": [
+     "Net-(U1-VREG_AVDD)",
+     "VREG_AVDD_61",
+     "unspecified"
+    ],
+    "30": [
+     "Net-(U1-XIN)",
+     "XIN_30",
+     "unspecified"
+    ],
+    "31": [
+     "Net-(U1-XOUT)",
+     "XOUT_31",
+     "unspecified"
+    ],
+    "71": [
+     "QSPI_SCLK",
+     "QSPI_SCLK_71",
+     "unspecified"
+    ],
+    "72": [
+     "QSPI_SD0",
+     "QSPI_SD0_72",
+     "unspecified"
+    ],
+    "74": [
+     "QSPI_SD1",
+     "QSPI_SD1_74",
+     "unspecified"
+    ],
+    "73": [
+     "QSPI_SD2",
+     "QSPI_SD2_73",
+     "unspecified"
+    ],
+    "70": [
+     "QSPI_SD3",
+     "QSPI_SD3_70",
+     "unspecified"
+    ],
+    "35": [
+     "RUN",
+     "RUN_35",
+     "unspecified"
+    ],
+    "33": [
+     "SWCLK",
+     "SWCLK_33",
+     "unspecified"
+    ],
+    "34": [
+     "SWDIO",
+     "SWDIO_34",
+     "unspecified"
+    ],
+    "67": [
+     "USB_D+",
+     "USB_D+_67",
+     "unspecified"
+    ],
+    "66": [
+     "USB_D-",
+     "USB_D-_66",
+     "unspecified"
+    ]
+   }
+  },
+  "U3": {
+   "ref": "U3",
+   "value": "ME6217C33M5G",
+   "fp": "SOT-23-5",
+   "lcsc": "C427602",
+   "mpn": "ME6217C33M5G",
+   "desc": "-40\u2103~+85\u2103 1 100uA 180mV@(300mA) 3.3V 6.5V 65dB@(1kHz) 800mA Fixed Over",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_MICRONE-Nanjing-Micro-One-Elec-ME6217C33M5G_C427602.pdf",
+   "pins": {
+    "5": [
+     "3V3",
+     "VOUT_5",
+     "unspecified"
+    ],
+    "3": [
+     "3V3_EN",
+     "CE_3",
+     "unspecified"
+    ],
+    "2": [
+     "GND",
+     "VSS_2",
+     "unspecified"
+    ],
+    "1": [
+     "VSYS",
+     "VIN_1",
+     "unspecified"
+    ],
+    "4": [
+     "unconnected-(U3-NC-Pad4)",
+     "NC_4",
+     "unspecified+no_connect"
+    ]
+   }
+  },
+  "U4": {
+   "ref": "U4",
+   "value": "W25Q128JVSIQTR",
+   "fp": "SOIC-8_5.3x5.3mm_P1.27mm",
+   "lcsc": "C97521",
+   "mpn": "W25Q128JVSIQ",
+   "desc": "-40\u2103~+85\u2103 100,000 cycles 120ms@(32KB) 128Mbit 133MHz 1uA 2.7V~3.6V 20 ",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811142111_Winbond-Elec-W25Q128JVSIQ_C97521.pdf",
+   "pins": {
+    "8": [
+     "3V3",
+     "VCC_8",
+     "unspecified"
+    ],
+    "4": [
+     "GND",
+     "GND_4",
+     "unspecified"
+    ],
+    "1": [
+     "Net-(U1-QSPI_SS)",
+     "CS#_1",
+     "unspecified"
+    ],
+    "6": [
+     "QSPI_SCLK",
+     "CLK_6",
+     "unspecified"
+    ],
+    "5": [
+     "QSPI_SD0",
+     "DI_5",
+     "unspecified"
+    ],
+    "2": [
+     "QSPI_SD1",
+     "DO_2",
+     "unspecified"
+    ],
+    "3": [
+     "QSPI_SD2",
+     "IO2_3",
+     "unspecified"
+    ],
+    "7": [
+     "QSPI_SD3",
+     "IO3_7",
+     "unspecified"
+    ]
+   }
+  },
+  "U5": {
+   "ref": "U5",
+   "value": "RPI Radio Module 2",
+   "fp": "rpi_rmc20452t",
+   "lcsc": "",
+   "mpn": "",
+   "desc": "",
+   "sheet": "/",
+   "dnp": true,
+   "in_bom": true,
+   "datasheet": "",
+   "pins": {
+    "14": [
+     "3V3",
+     "VDDIO_14",
+     "power_in"
+    ],
+    "16": [
+     "3V3",
+     "VIN_16",
+     "power_in"
+    ],
+    "1": [
+     "GND",
+     "GND_1",
+     "power_in"
+    ],
+    "11": [
+     "GND",
+     "GND_11",
+     "power_in"
+    ],
+    "15": [
+     "GND",
+     "GND_15",
+     "power_in"
+    ],
+    "21": [
+     "GND",
+     "GND_21",
+     "power_in"
+    ],
+    "4": [
+     "GND",
+     "GND_4",
+     "power_in"
+    ],
+    "7": [
+     "GND",
+     "GND_7",
+     "power_in"
+    ],
+    "5": [
+     "GPIO24",
+     "DI_5",
+     "input"
+    ],
+    "3": [
+     "GPIO29",
+     "SCLK_3",
+     "input"
+    ],
+    "9": [
+     "Net-(JP2-A)",
+     "CS_9",
+     "input"
+    ],
+    "12": [
+     "Net-(JP3-B)",
+     "WL_ON_12",
+     "input"
+    ],
+    "13": [
+     "Net-(JP3-B)",
+     "BT_ON_13",
+     "input"
+    ],
+    "6": [
+     "Net-(U5-DO)",
+     "DO_6",
+     "output"
+    ],
+    "10": [
+     "Net-(U5-nIRQ)",
+     "nIRQ_10",
+     "output"
+    ],
+    "8": [
+     "unconnected-(U5-GPIO0-Pad8)",
+     "GPIO0_8",
+     "no_connect"
+    ],
+    "18": [
+     "unconnected-(U5-GPIO1-Pad18)",
+     "GPIO1_18",
+     "no_connect"
+    ],
+    "17": [
+     "unconnected-(U5-GPIO2-Pad17)",
+     "GPIO2_17",
+     "no_connect"
+    ],
+    "2": [
+     "unconnected-(U5-NC-Pad2)",
+     "NC_2",
+     "no_connect"
+    ],
+    "19": [
+     "unconnected-(U5-NC-Pad19)",
+     "NC_19",
+     "no_connect"
+    ],
+    "20": [
+     "unconnected-(U5-NC-Pad20)",
+     "NC_20",
+     "no_connect"
+    ]
+   }
+  },
+  "U6": {
+   "ref": "U6",
+   "value": "APS6404L-3SQR",
+   "fp": "SOIC-8_3.9x4.9mm_P1.27mm",
+   "lcsc": "C5333729",
+   "mpn": "",
+   "desc": "64 Mbit QSPI PSRAM, 2.7-3.6 V, SOP-8 150 mil (AP Memory APS6404L-3SQR-",
+   "sheet": "/",
+   "dnp": true,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/product-detail/C5333729.html",
+   "pins": {
+    "8": [
+     "3V3",
+     "VCC_8",
+     "power_in"
+    ],
+    "4": [
+     "GND",
+     "GND_4",
+     "power_in"
+    ],
+    "1": [
+     "Net-(JP1-A)",
+     "~{CE}_1",
+     "input"
+    ],
+    "6": [
+     "QSPI_SCLK",
+     "SCLK_6",
+     "output"
+    ],
+    "5": [
+     "QSPI_SD0",
+     "SI/SIO_5",
+     "input"
+    ],
+    "2": [
+     "QSPI_SD1",
+     "SO/SIO_2",
+     "output"
+    ],
+    "3": [
+     "QSPI_SD2",
+     "SIO2_3",
+     "bidirectional"
+    ],
+    "7": [
+     "QSPI_SD3",
+     "SIO3_7",
+     "bidirectional"
+    ]
+   }
+  },
+  "USB1": {
+   "ref": "USB1",
+   "value": "TYPE-C_16PIN_2MD_073",
+   "fp": "TYPE-C_16PIN_2MD_073",
+   "lcsc": "C2765186",
+   "mpn": "TYPE-C 16PIN 2MD(073)",
+   "desc": "-25\u2103~+85\u2103 1 16P 3A 5,000 times 5V Black Female Surface Mount, Right An",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588920841703079936",
+   "pins": {
+    "1": [
+     "GND",
+     "GND_1",
+     "unspecified"
+    ],
+    "12": [
+     "GND",
+     "GND_12",
+     "unspecified"
+    ],
+    "13": [
+     "GND",
+     "SHELL_13",
+     "unspecified"
+    ],
+    "14": [
+     "GND",
+     "SHELL_14",
+     "unspecified"
+    ],
+    "4": [
+     "Net-(USB1-CC1)",
+     "CC1_4",
+     "unspecified"
+    ],
+    "10": [
+     "Net-(USB1-CC2)",
+     "CC2_10",
+     "unspecified"
+    ],
+    "6": [
+     "USB2_D+",
+     "DP1_6",
+     "unspecified"
+    ],
+    "8": [
+     "USB2_D+",
+     "DP2_8",
+     "unspecified"
+    ],
+    "5": [
+     "USB2_D-",
+     "DN2_5",
+     "unspecified"
+    ],
+    "7": [
+     "USB2_D-",
+     "DN1_7",
+     "unspecified"
+    ],
+    "11": [
+     "VBUS",
+     "VBUS_11",
+     "unspecified"
+    ],
+    "2": [
+     "VBUS",
+     "VBUS_2",
+     "unspecified"
+    ],
+    "9": [
+     "unconnected-(USB1-SBU1-Pad9)",
+     "SBU1_9",
+     "unspecified+no_connect"
+    ],
+    "3": [
+     "unconnected-(USB1-SBU2-Pad3)",
+     "SBU2_3",
+     "unspecified+no_connect"
+    ]
+   }
+  },
+  "X1": {
+   "ref": "X1",
+   "value": "ABM8-272-T3_C20625731",
+   "fp": "ABM8-272-T3_C20625731",
+   "lcsc": "C20625731",
+   "mpn": "ABM8-272-T3",
+   "desc": "-40\u2103~+85\u2103 10pF 12MHz 50\u03a9 Crystal Oscillator \u00b130ppm \u00b130ppm SMD3225-4P C",
+   "sheet": "/",
+   "dnp": false,
+   "in_bom": true,
+   "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121909_Abracon-LLC-ABM8-272-T3_C20625731.pdf",
+   "pins": {
+    "2": [
+     "GND",
+     "GND_2",
+     "input"
+    ],
+    "4": [
+     "GND",
+     "GND_4",
+     "input"
+    ],
+    "3": [
+     "Net-(C17-Pad1)",
+     "3_3",
+     "input"
+    ],
+    "1": [
+     "Net-(U1-XIN)",
+     "1_1",
+     "input"
+    ]
+   }
+  }
+ },
+ "nets": {
+  "/VREG_LX": [
+   [
+    "L1",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "63",
+    "VREG_LX_63",
+    "unspecified"
+   ]
+  ],
+  "1V1": [
+   [
+    "C10",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "C13",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C2",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C5",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "L1",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "TP1",
+    "1",
+    "1_1",
+    "passive"
+   ],
+   [
+    "U1",
+    "10",
+    "DVDD_10",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "32",
+    "DVDD_32",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "51",
+    "DVDD_51",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "65",
+    "VREG_FB_65",
+    "unspecified"
+   ]
+  ],
+  "3V3": [
+   [
+    "C1",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C12",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "C16",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C21",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "C22",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "C23",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "C24",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "C3",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C36",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C38",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "C4",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C40",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C6",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C7",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C8",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C9",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "J4",
+    "60",
+    "Pin_60_60",
+    "passive"
+   ],
+   [
+    "PWR_LED1",
+    "2",
+    "A_2",
+    "unspecified"
+   ],
+   [
+    "R14",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "R6",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "R8",
+    "2",
+    "",
+    "input"
+   ],
+   [
+    "TP2",
+    "1",
+    "1_1",
+    "passive"
+   ],
+   [
+    "U1",
+    "15",
+    "IOVDD_15",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "24",
+    "IOVDD_24",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "29",
+    "IOVDD_29",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "41",
+    "IOVDD_41",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "5",
+    "IOVDD_5",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "50",
+    "IOVDD_50",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "60",
+    "IOVDD_60",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "64",
+    "VREG_VIN_64",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "68",
+    "USB_OTP_VDD_68",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "69",
+    "QSPI_IOVDD_69",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "76",
+    "IOVDD_76",
+    "unspecified"
+   ],
+   [
+    "U3",
+    "5",
+    "VOUT_5",
+    "unspecified"
+   ],
+   [
+    "U4",
+    "8",
+    "VCC_8",
+    "unspecified"
+   ],
+   [
+    "U5",
+    "14",
+    "VDDIO_14",
+    "power_in"
+   ],
+   [
+    "U5",
+    "16",
+    "VIN_16",
+    "power_in"
+   ],
+   [
+    "U6",
+    "8",
+    "VCC_8",
+    "power_in"
+   ]
+  ],
+  "3V3_EN": [
+   [
+    "J4",
+    "61",
+    "Pin_61_61",
+    "passive"
+   ],
+   [
+    "R11",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "U3",
+    "3",
+    "CE_3",
+    "unspecified"
+   ]
+  ],
+  "ADC_VREF": [
+   [
+    "J4",
+    "59",
+    "Pin_59_59",
+    "passive"
+   ],
+   [
+    "R7",
+    "2",
+    "",
+    "input"
+   ],
+   [
+    "R8",
+    "1",
+    "",
+    "input"
+   ]
+  ],
+  "GND": [
+   [
+    "Boot1",
+    "3",
+    "3_3",
+    "unspecified"
+   ],
+   [
+    "Boot1",
+    "4",
+    "4_4",
+    "unspecified"
+   ],
+   [
+    "C1",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C10",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "C11",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "C12",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "C13",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C15",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C16",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C17",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C18",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C19",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "C2",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C21",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "C22",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "C23",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "C24",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "C3",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C36",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C37",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "C38",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "C39",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "C4",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C40",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C5",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "C6",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C7",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "C8",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "C9",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "D2",
+    "1",
+    "",
+    "unspecified"
+   ],
+   [
+    "D3",
+    "1",
+    "",
+    "unspecified"
+   ],
+   [
+    "J2",
+    "2",
+    "Pin_2_2",
+    "passive"
+   ],
+   [
+    "J4",
+    "13",
+    "Pin_13_13",
+    "passive"
+   ],
+   [
+    "J4",
+    "18",
+    "Pin_18_18",
+    "passive"
+   ],
+   [
+    "J4",
+    "3",
+    "Pin_3_3",
+    "passive"
+   ],
+   [
+    "J4",
+    "31",
+    "Pin_31_31",
+    "passive"
+   ],
+   [
+    "J4",
+    "34",
+    "Pin_34_34",
+    "passive"
+   ],
+   [
+    "J4",
+    "47",
+    "Pin_47_47",
+    "passive"
+   ],
+   [
+    "J4",
+    "52",
+    "Pin_52_52",
+    "passive"
+   ],
+   [
+    "J4",
+    "57",
+    "Pin_57_57",
+    "passive"
+   ],
+   [
+    "J4",
+    "62",
+    "Pin_62_62",
+    "passive"
+   ],
+   [
+    "J4",
+    "8",
+    "Pin_8_8",
+    "passive"
+   ],
+   [
+    "R1",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "R10",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "R12",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "R4",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "R9",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "Reset1",
+    "3",
+    "3_3",
+    "unspecified"
+   ],
+   [
+    "Reset1",
+    "4",
+    "4_4",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "62",
+    "VREG_PGND_62",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "81",
+    "GND_81",
+    "unspecified"
+   ],
+   [
+    "U3",
+    "2",
+    "VSS_2",
+    "unspecified"
+   ],
+   [
+    "U4",
+    "4",
+    "GND_4",
+    "unspecified"
+   ],
+   [
+    "U5",
+    "1",
+    "GND_1",
+    "power_in"
+   ],
+   [
+    "U5",
+    "11",
+    "GND_11",
+    "power_in"
+   ],
+   [
+    "U5",
+    "15",
+    "GND_15",
+    "power_in"
+   ],
+   [
+    "U5",
+    "21",
+    "GND_21",
+    "power_in"
+   ],
+   [
+    "U5",
+    "4",
+    "GND_4",
+    "power_in"
+   ],
+   [
+    "U5",
+    "7",
+    "GND_7",
+    "power_in"
+   ],
+   [
+    "U6",
+    "4",
+    "GND_4",
+    "power_in"
+   ],
+   [
+    "USB1",
+    "1",
+    "GND_1",
+    "unspecified"
+   ],
+   [
+    "USB1",
+    "12",
+    "GND_12",
+    "unspecified"
+   ],
+   [
+    "USB1",
+    "13",
+    "SHELL_13",
+    "unspecified"
+   ],
+   [
+    "USB1",
+    "14",
+    "SHELL_14",
+    "unspecified"
+   ],
+   [
+    "X1",
+    "2",
+    "GND_2",
+    "input"
+   ],
+   [
+    "X1",
+    "4",
+    "GND_4",
+    "input"
+   ]
+  ],
+  "GPIO0": [
+   [
+    "J4",
+    "1",
+    "Pin_1_1",
+    "passive"
+   ],
+   [
+    "JP1",
+    "2",
+    "B_2",
+    "passive"
+   ],
+   [
+    "U1",
+    "77",
+    "GPIO0_77",
+    "unspecified"
+   ]
+  ],
+  "GPIO1": [
+   [
+    "J4",
+    "2",
+    "Pin_2_2",
+    "passive"
+   ],
+   [
+    "U1",
+    "78",
+    "GPIO1_78",
+    "unspecified"
+   ]
+  ],
+  "GPIO2": [
+   [
+    "J4",
+    "4",
+    "Pin_4_4",
+    "passive"
+   ],
+   [
+    "U1",
+    "79",
+    "GPIO2_79",
+    "unspecified"
+   ]
+  ],
+  "GPIO3": [
+   [
+    "J4",
+    "5",
+    "Pin_5_5",
+    "passive"
+   ],
+   [
+    "U1",
+    "80",
+    "GPIO3_80",
+    "unspecified"
+   ]
+  ],
+  "GPIO4": [
+   [
+    "J4",
+    "6",
+    "Pin_6_6",
+    "passive"
+   ],
+   [
+    "U1",
+    "1",
+    "GPIO4_1",
+    "unspecified"
+   ]
+  ],
+  "GPIO5": [
+   [
+    "J4",
+    "7",
+    "Pin_7_7",
+    "passive"
+   ],
+   [
+    "U1",
+    "2",
+    "GPIO5_2",
+    "unspecified"
+   ]
+  ],
+  "GPIO6": [
+   [
+    "J4",
+    "9",
+    "Pin_9_9",
+    "passive"
+   ],
+   [
+    "U1",
+    "3",
+    "GPIO6_3",
+    "unspecified"
+   ]
+  ],
+  "GPIO7": [
+   [
+    "J4",
+    "10",
+    "Pin_10_10",
+    "passive"
+   ],
+   [
+    "U1",
+    "4",
+    "GPIO7_4",
+    "unspecified"
+   ]
+  ],
+  "GPIO8": [
+   [
+    "J4",
+    "11",
+    "Pin_11_11",
+    "passive"
+   ],
+   [
+    "U1",
+    "6",
+    "GPIO8_6",
+    "unspecified"
+   ]
+  ],
+  "GPIO9": [
+   [
+    "J4",
+    "12",
+    "Pin_12_12",
+    "passive"
+   ],
+   [
+    "U1",
+    "7",
+    "GPIO9_7",
+    "unspecified"
+   ]
+  ],
+  "GPIO10": [
+   [
+    "J4",
+    "14",
+    "Pin_14_14",
+    "passive"
+   ],
+   [
+    "U1",
+    "8",
+    "GPIO10_8",
+    "unspecified"
+   ]
+  ],
+  "GPIO11": [
+   [
+    "J4",
+    "15",
+    "Pin_15_15",
+    "passive"
+   ],
+   [
+    "U1",
+    "9",
+    "GPIO11_9",
+    "unspecified"
+   ]
+  ],
+  "GPIO12": [
+   [
+    "J4",
+    "16",
+    "Pin_16_16",
+    "passive"
+   ],
+   [
+    "U1",
+    "11",
+    "GPIO12_11",
+    "unspecified"
+   ]
+  ],
+  "GPIO13": [
+   [
+    "J4",
+    "17",
+    "Pin_17_17",
+    "passive"
+   ],
+   [
+    "U1",
+    "12",
+    "GPIO13_12",
+    "unspecified"
+   ]
+  ],
+  "GPIO14": [
+   [
+    "J4",
+    "19",
+    "Pin_19_19",
+    "passive"
+   ],
+   [
+    "U1",
+    "13",
+    "GPIO14_13",
+    "unspecified"
+   ]
+  ],
+  "GPIO15": [
+   [
+    "J4",
+    "20",
+    "Pin_20_20",
+    "passive"
+   ],
+   [
+    "U1",
+    "14",
+    "GPIO15_14",
+    "unspecified"
+   ]
+  ],
+  "GPIO16": [
+   [
+    "J4",
+    "45",
+    "Pin_45_45",
+    "passive"
+   ],
+   [
+    "U1",
+    "16",
+    "GPIO16_16",
+    "unspecified"
+   ]
+  ],
+  "GPIO17": [
+   [
+    "J4",
+    "46",
+    "Pin_46_46",
+    "passive"
+   ],
+   [
+    "U1",
+    "17",
+    "GPIO17_17",
+    "unspecified"
+   ]
+  ],
+  "GPIO18": [
+   [
+    "J4",
+    "48",
+    "Pin_48_48",
+    "passive"
+   ],
+   [
+    "U1",
+    "18",
+    "GPIO18_18",
+    "unspecified"
+   ]
+  ],
+  "GPIO19": [
+   [
+    "J4",
+    "49",
+    "Pin_49_49",
+    "passive"
+   ],
+   [
+    "U1",
+    "19",
+    "GPIO19_19",
+    "unspecified"
+   ]
+  ],
+  "GPIO20": [
+   [
+    "J4",
+    "50",
+    "Pin_50_50",
+    "passive"
+   ],
+   [
+    "U1",
+    "20",
+    "GPIO20_20",
+    "unspecified"
+   ]
+  ],
+  "GPIO21": [
+   [
+    "J4",
+    "51",
+    "Pin_61_51",
+    "passive"
+   ],
+   [
+    "U1",
+    "21",
+    "GPIO21_21",
+    "unspecified"
+   ]
+  ],
+  "GPIO22": [
+   [
+    "J4",
+    "53",
+    "Pin_53_53",
+    "passive"
+   ],
+   [
+    "U1",
+    "22",
+    "GPIO22_22",
+    "unspecified"
+   ]
+  ],
+  "GPIO23": [
+   [
+    "J4",
+    "21",
+    "Pin_21_21",
+    "passive"
+   ],
+   [
+    "JP3",
+    "1",
+    "A_1",
+    "passive"
+   ],
+   [
+    "U1",
+    "23",
+    "GPIO23_23",
+    "unspecified"
+   ]
+  ],
+  "GPIO24": [
+   [
+    "J4",
+    "22",
+    "Pin_22_22",
+    "passive"
+   ],
+   [
+    "R15",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "R16",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "U1",
+    "25",
+    "GPIO24_25",
+    "unspecified"
+   ],
+   [
+    "U5",
+    "5",
+    "DI_5",
+    "input"
+   ]
+  ],
+  "GPIO25": [
+   [
+    "J4",
+    "23",
+    "Pin_23_23",
+    "passive"
+   ],
+   [
+    "JP2",
+    "2",
+    "B_2",
+    "passive"
+   ],
+   [
+    "U1",
+    "26",
+    "GPIO25_26",
+    "unspecified"
+   ]
+  ],
+  "GPIO26": [
+   [
+    "J4",
+    "55",
+    "Pin_55_55",
+    "passive"
+   ],
+   [
+    "U1",
+    "27",
+    "GPIO26_27",
+    "unspecified"
+   ]
+  ],
+  "GPIO27": [
+   [
+    "J4",
+    "56",
+    "Pin_56_56",
+    "passive"
+   ],
+   [
+    "U1",
+    "28",
+    "GPIO27_28",
+    "unspecified"
+   ]
+  ],
+  "GPIO28": [
+   [
+    "J4",
+    "58",
+    "Pin_58_58",
+    "passive"
+   ],
+   [
+    "U1",
+    "36",
+    "GPIO28_36",
+    "unspecified"
+   ]
+  ],
+  "GPIO29": [
+   [
+    "J4",
+    "24",
+    "Pin_24_24",
+    "passive"
+   ],
+   [
+    "U1",
+    "37",
+    "GPIO29_37",
+    "unspecified"
+   ],
+   [
+    "U5",
+    "3",
+    "SCLK_3",
+    "input"
+   ]
+  ],
+  "GPIO30": [
+   [
+    "J4",
+    "25",
+    "Pin_25_25",
+    "passive"
+   ],
+   [
+    "U1",
+    "38",
+    "GPIO30_38",
+    "unspecified"
+   ]
+  ],
+  "GPIO31": [
+   [
+    "J4",
+    "26",
+    "Pin_26_26",
+    "passive"
+   ],
+   [
+    "U1",
+    "39",
+    "GPIO31_39",
+    "unspecified"
+   ]
+  ],
+  "GPIO32": [
+   [
+    "J4",
+    "27",
+    "Pin_27_27",
+    "passive"
+   ],
+   [
+    "U1",
+    "40",
+    "GPIO32_40",
+    "unspecified"
+   ]
+  ],
+  "GPIO33": [
+   [
+    "J4",
+    "28",
+    "Pin_28_28",
+    "passive"
+   ],
+   [
+    "U1",
+    "42",
+    "GPIO33_42",
+    "unspecified"
+   ]
+  ],
+  "GPIO34": [
+   [
+    "J4",
+    "29",
+    "Pin_29_29",
+    "passive"
+   ],
+   [
+    "U1",
+    "43",
+    "GPIO34_43",
+    "unspecified"
+   ]
+  ],
+  "GPIO35": [
+   [
+    "J4",
+    "30",
+    "Pin_30_30",
+    "passive"
+   ],
+   [
+    "U1",
+    "44",
+    "GPIO35_44",
+    "unspecified"
+   ]
+  ],
+  "GPIO36": [
+   [
+    "J4",
+    "32",
+    "Pin_32_32",
+    "passive"
+   ],
+   [
+    "U1",
+    "45",
+    "GPIO36_45",
+    "unspecified"
+   ]
+  ],
+  "GPIO37": [
+   [
+    "J4",
+    "33",
+    "Pin_33_33",
+    "passive"
+   ],
+   [
+    "U1",
+    "46",
+    "GPIO37_46",
+    "unspecified"
+   ]
+  ],
+  "GPIO38": [
+   [
+    "J4",
+    "35",
+    "Pin_35_35",
+    "passive"
+   ],
+   [
+    "U1",
+    "47",
+    "GPIO38_47",
+    "unspecified"
+   ]
+  ],
+  "GPIO39": [
+   [
+    "J4",
+    "36",
+    "Pin_36_36",
+    "passive"
+   ],
+   [
+    "U1",
+    "48",
+    "GPIO39_48",
+    "unspecified"
+   ]
+  ],
+  "GPIO40/ADC0": [
+   [
+    "J4",
+    "37",
+    "Pin_37_37",
+    "passive"
+   ],
+   [
+    "U1",
+    "49",
+    "GPIO40_ADC0_49",
+    "unspecified"
+   ]
+  ],
+  "GPIO41/ADC1": [
+   [
+    "J4",
+    "38",
+    "Pin_38_38",
+    "passive"
+   ],
+   [
+    "U1",
+    "52",
+    "GPIO41_ADC1_52",
+    "unspecified"
+   ]
+  ],
+  "GPIO42/ADC2": [
+   [
+    "J4",
+    "39",
+    "Pin_39_39",
+    "passive"
+   ],
+   [
+    "U1",
+    "53",
+    "GPIO42_ADC2_53",
+    "unspecified"
+   ]
+  ],
+  "GPIO43/ADC3": [
+   [
+    "J4",
+    "40",
+    "Pin_40_40",
+    "passive"
+   ],
+   [
+    "U1",
+    "54",
+    "GPIO43_ADC3_54",
+    "unspecified"
+   ]
+  ],
+  "GPIO44/ADC4": [
+   [
+    "J4",
+    "41",
+    "Pin_41_41",
+    "passive"
+   ],
+   [
+    "U1",
+    "55",
+    "GPIO44_ADC4_55",
+    "unspecified"
+   ]
+  ],
+  "GPIO45/ADC5": [
+   [
+    "J4",
+    "42",
+    "Pin_42_42",
+    "passive"
+   ],
+   [
+    "U1",
+    "56",
+    "GPIO45_ADC5_56",
+    "unspecified"
+   ]
+  ],
+  "GPIO46/ADC6": [
+   [
+    "J4",
+    "43",
+    "Pin_43_43",
+    "passive"
+   ],
+   [
+    "U1",
+    "57",
+    "GPIO46_ADC6_57",
+    "unspecified"
+   ]
+  ],
+  "GPIO47/ADC7": [
+   [
+    "J4",
+    "44",
+    "Pin_44_44",
+    "passive"
+   ],
+   [
+    "JP4",
+    "2",
+    "B_2",
+    "passive"
+   ],
+   [
+    "U1",
+    "58",
+    "GPIO47_ADC7_58",
+    "unspecified"
+   ]
+  ],
+  "Net-(Boot1-Pad1)": [
+   [
+    "Boot1",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "Boot1",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "R5",
+    "1",
+    "",
+    "passive"
+   ]
+  ],
+  "Net-(C17-Pad1)": [
+   [
+    "C17",
+    "1",
+    "1_1",
+    "input"
+   ],
+   [
+    "R28",
+    "1",
+    "",
+    "input"
+   ],
+   [
+    "X1",
+    "3",
+    "3_3",
+    "input"
+   ]
+  ],
+  "Net-(JP1-A)": [
+   [
+    "JP1",
+    "1",
+    "A_1",
+    "passive"
+   ],
+   [
+    "JP4",
+    "1",
+    "A_1",
+    "passive"
+   ],
+   [
+    "R14",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "U6",
+    "1",
+    "~{CE}_1",
+    "input"
+   ]
+  ],
+  "Net-(JP2-A)": [
+   [
+    "JP2",
+    "1",
+    "A_1",
+    "passive"
+   ],
+   [
+    "R9",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "U5",
+    "9",
+    "CS_9",
+    "input"
+   ]
+  ],
+  "Net-(JP3-B)": [
+   [
+    "JP3",
+    "2",
+    "B_2",
+    "passive"
+   ],
+   [
+    "R10",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "U5",
+    "12",
+    "WL_ON_12",
+    "input"
+   ],
+   [
+    "U5",
+    "13",
+    "BT_ON_13",
+    "input"
+   ]
+  ],
+  "Net-(PWR_LED1-K)": [
+   [
+    "PWR_LED1",
+    "1",
+    "K_1",
+    "unspecified"
+   ],
+   [
+    "R12",
+    "1",
+    "",
+    "passive"
+   ]
+  ],
+  "Net-(U1-ADC_AVDD)": [
+   [
+    "C19",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "R7",
+    "1",
+    "",
+    "input"
+   ],
+   [
+    "U1",
+    "59",
+    "ADC_AVDD_59",
+    "unspecified"
+   ]
+  ],
+  "Net-(U1-QSPI_SS)": [
+   [
+    "R5",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "U1",
+    "75",
+    "QSPI_SS_75",
+    "unspecified"
+   ],
+   [
+    "U4",
+    "1",
+    "CS#_1",
+    "unspecified"
+   ]
+  ],
+  "Net-(U1-VREG_AVDD)": [
+   [
+    "C11",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "R6",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "61",
+    "VREG_AVDD_61",
+    "unspecified"
+   ]
+  ],
+  "Net-(U1-XIN)": [
+   [
+    "C18",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "U1",
+    "30",
+    "XIN_30",
+    "unspecified"
+   ],
+   [
+    "X1",
+    "1",
+    "1_1",
+    "input"
+   ]
+  ],
+  "Net-(U1-XOUT)": [
+   [
+    "R28",
+    "2",
+    "",
+    "input"
+   ],
+   [
+    "U1",
+    "31",
+    "XOUT_31",
+    "unspecified"
+   ]
+  ],
+  "Net-(U5-DO)": [
+   [
+    "R15",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "U5",
+    "6",
+    "DO_6",
+    "output"
+   ]
+  ],
+  "Net-(U5-nIRQ)": [
+   [
+    "R16",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "U5",
+    "10",
+    "nIRQ_10",
+    "output"
+   ]
+  ],
+  "Net-(USB1-CC1)": [
+   [
+    "R1",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "USB1",
+    "4",
+    "CC1_4",
+    "unspecified"
+   ]
+  ],
+  "Net-(USB1-CC2)": [
+   [
+    "R4",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "USB1",
+    "10",
+    "CC2_10",
+    "unspecified"
+   ]
+  ],
+  "QSPI_SCLK": [
+   [
+    "U1",
+    "71",
+    "QSPI_SCLK_71",
+    "unspecified"
+   ],
+   [
+    "U4",
+    "6",
+    "CLK_6",
+    "unspecified"
+   ],
+   [
+    "U6",
+    "6",
+    "SCLK_6",
+    "output"
+   ]
+  ],
+  "QSPI_SD0": [
+   [
+    "U1",
+    "72",
+    "QSPI_SD0_72",
+    "unspecified"
+   ],
+   [
+    "U4",
+    "5",
+    "DI_5",
+    "unspecified"
+   ],
+   [
+    "U6",
+    "5",
+    "SI/SIO_5",
+    "input"
+   ]
+  ],
+  "QSPI_SD1": [
+   [
+    "U1",
+    "74",
+    "QSPI_SD1_74",
+    "unspecified"
+   ],
+   [
+    "U4",
+    "2",
+    "DO_2",
+    "unspecified"
+   ],
+   [
+    "U6",
+    "2",
+    "SO/SIO_2",
+    "output"
+   ]
+  ],
+  "QSPI_SD2": [
+   [
+    "U1",
+    "73",
+    "QSPI_SD2_73",
+    "unspecified"
+   ],
+   [
+    "U4",
+    "3",
+    "IO2_3",
+    "unspecified"
+   ],
+   [
+    "U6",
+    "3",
+    "SIO2_3",
+    "bidirectional"
+   ]
+  ],
+  "QSPI_SD3": [
+   [
+    "U1",
+    "70",
+    "QSPI_SD3_70",
+    "unspecified"
+   ],
+   [
+    "U4",
+    "7",
+    "IO3_7",
+    "unspecified"
+   ],
+   [
+    "U6",
+    "7",
+    "SIO3_7",
+    "bidirectional"
+   ]
+  ],
+  "RUN": [
+   [
+    "C15",
+    "2",
+    "2_2",
+    "input"
+   ],
+   [
+    "J4",
+    "54",
+    "Pin_54_54",
+    "passive"
+   ],
+   [
+    "Reset1",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "U1",
+    "35",
+    "RUN_35",
+    "unspecified"
+   ]
+  ],
+  "SWCLK": [
+   [
+    "J2",
+    "1",
+    "Pin_1_1",
+    "passive"
+   ],
+   [
+    "U1",
+    "33",
+    "SWCLK_33",
+    "unspecified"
+   ]
+  ],
+  "SWDIO": [
+   [
+    "J2",
+    "3",
+    "Pin_3_3",
+    "passive"
+   ],
+   [
+    "U1",
+    "34",
+    "SWDIO_34",
+    "unspecified"
+   ]
+  ],
+  "USB2_D+": [
+   [
+    "D3",
+    "2",
+    "",
+    "unspecified"
+   ],
+   [
+    "R3",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "TP4",
+    "1",
+    "1_1",
+    "passive"
+   ],
+   [
+    "USB1",
+    "6",
+    "DP1_6",
+    "unspecified"
+   ],
+   [
+    "USB1",
+    "8",
+    "DP2_8",
+    "unspecified"
+   ]
+  ],
+  "USB2_D-": [
+   [
+    "D2",
+    "2",
+    "",
+    "unspecified"
+   ],
+   [
+    "R2",
+    "2",
+    "",
+    "passive"
+   ],
+   [
+    "TP3",
+    "1",
+    "1_1",
+    "passive"
+   ],
+   [
+    "USB1",
+    "5",
+    "DN2_5",
+    "unspecified"
+   ],
+   [
+    "USB1",
+    "7",
+    "DN1_7",
+    "unspecified"
+   ]
+  ],
+  "USB_D+": [
+   [
+    "R3",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "U1",
+    "67",
+    "USB_D+_67",
+    "unspecified"
+   ]
+  ],
+  "USB_D-": [
+   [
+    "R2",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "U1",
+    "66",
+    "USB_D-_66",
+    "unspecified"
+   ]
+  ],
+  "VBUS": [
+   [
+    "D1",
+    "2",
+    "2_2",
+    "unspecified"
+   ],
+   [
+    "J4",
+    "64",
+    "Pin_64_64",
+    "passive"
+   ],
+   [
+    "USB1",
+    "11",
+    "VBUS_11",
+    "unspecified"
+   ],
+   [
+    "USB1",
+    "2",
+    "VBUS_2",
+    "unspecified"
+   ]
+  ],
+  "VSYS": [
+   [
+    "C37",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "C39",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "D1",
+    "1",
+    "1_1",
+    "unspecified"
+   ],
+   [
+    "J4",
+    "63",
+    "Pin_63_63",
+    "passive"
+   ],
+   [
+    "R11",
+    "1",
+    "",
+    "passive"
+   ],
+   [
+    "U3",
+    "1",
+    "VIN_1",
+    "unspecified"
+   ]
+  ],
+  "unconnected-(Reset1-Pad1)": [
+   [
+    "Reset1",
+    "1",
+    "1_1",
+    "unspecified+no_connect"
+   ]
+  ],
+  "unconnected-(U3-NC-Pad4)": [
+   [
+    "U3",
+    "4",
+    "NC_4",
+    "unspecified+no_connect"
+   ]
+  ],
+  "unconnected-(U5-GPIO0-Pad8)": [
+   [
+    "U5",
+    "8",
+    "GPIO0_8",
+    "no_connect"
+   ]
+  ],
+  "unconnected-(U5-GPIO1-Pad18)": [
+   [
+    "U5",
+    "18",
+    "GPIO1_18",
+    "no_connect"
+   ]
+  ],
+  "unconnected-(U5-GPIO2-Pad17)": [
+   [
+    "U5",
+    "17",
+    "GPIO2_17",
+    "no_connect"
+   ]
+  ],
+  "unconnected-(U5-NC-Pad2)": [
+   [
+    "U5",
+    "2",
+    "NC_2",
+    "no_connect"
+   ]
+  ],
+  "unconnected-(U5-NC-Pad19)": [
+   [
+    "U5",
+    "19",
+    "NC_19",
+    "no_connect"
+   ]
+  ],
+  "unconnected-(U5-NC-Pad20)": [
+   [
+    "U5",
+    "20",
+    "NC_20",
+    "no_connect"
+   ]
+  ],
+  "unconnected-(USB1-SBU1-Pad9)": [
+   [
+    "USB1",
+    "9",
+    "SBU1_9",
+    "unspecified+no_connect"
+   ]
+  ],
+  "unconnected-(USB1-SBU2-Pad3)": [
+   [
+    "USB1",
+    "3",
+    "SBU2_3",
+    "unspecified+no_connect"
+   ]
+  ]
+ }
+}

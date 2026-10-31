@@ -1,0 +1,11 @@
+{
+ "coverage": {
+  "warnings": [
+   "underived: U1 switches /VREG_LX but no power pin of it has a capacitor to ground: configure its hot loop by hand",
+   "43 net(s) that reach a connector fell through to \"slow\" (no reference, crosstalk or edge checks; a cable makes them antennas and ESD entry points): GPIO1 (J4), GPIO2 (J4), GPIO3 (J4), GPIO4 (J4), GPIO5 (J4), GPIO6 (J4), GPIO7 (J4), GPIO8 (J4), GPIO9 (J4), GPIO10 (J4), GPIO11 (J4), GPIO12 (J4), GPIO13 (J4), GPIO14 (J4), GPIO15 (J4), GPIO16 (J4), GPIO17 (J4), GPIO18 (J4), GPIO19 (J4), GPIO20 (J4) - classify each one (its interface speed from the chip's datasheet, or \"slow_ext\" on purpose)",
+   "same-net isolation NOT CHECKED: no \"islands\" in review_config.json. A single-point or quiet ground merged into the main pour is same-net copper, invisible to DRC and to the hot-loop table (1 switching IC(s) on this board); declare each island (net, layer, its pads, allowed joins) from the datasheet layout rules"
+  ],
+  "declared": 0
+ },
+ "islands": []
+}
